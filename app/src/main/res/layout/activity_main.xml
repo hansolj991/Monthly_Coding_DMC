@@ -4,61 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/activity_main_background_large"
     tools:context=".MainActivity">
 
-
-    <ImageView
-        android:id="@+id/activity_main_title_imageview"
-        android:layout_width="259dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="224dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.223"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/activity_main_title_text" />
-
     <TextView
-        android:id="@+id/activity_main_textview2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="동양미래대학교 학생들을 위해"
-        android:textColor="#002066"
-        android:textSize="20dp"
-        android:textStyle="bold"
+        android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.207"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/activity_main_title_imageview"
-        app:layout_constraintVertical_bias="0.16" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/activity_main_textview3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="학교 주변 점심 먹거리를 준비했어"
-        android:textColor="#002066"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/activity_main_textview2"
-        app:layout_constraintVertical_bias="0.018" />
-
-    <ImageView
-        android:id="@+id/activity_main_imageview_button"
-        android:layout_width="25dp"
-        android:layout_height="27dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.924"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/activity_main_textview3"
-        app:layout_constraintVertical_bias="0.88"
-        app:srcCompat="@drawable/all_ic_button_right"
-        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
