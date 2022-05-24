@@ -8,28 +8,34 @@
 
     <Button
         android:id="@+id/activity_main_button_select"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="144dp"
+        android:layout_height="54dp"
         android:layout_marginStart="107dp"
         android:layout_marginTop="475dp"
-        android:layout_marginEnd="81dp"
-        android:layout_marginBottom="490dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="200dp"
+        android:background="@drawable/all_button_radius_10dp"
+        android:backgroundTint="@color/pink_select_button"
         android:text="다시뽑기"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintCircleRadius="10dp"
         app:layout_constraintEnd_toStartOf="@+id/activity_main_button_info"
+        app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644" />
 
     <Button
         android:id="@+id/activity_main_button_info"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="475dp"
-        android:layout_marginEnd="102dp"
-        android:layout_marginBottom="490dp"
+        android:layout_width="144dp"
+        android:layout_height="54dp"
+        android:background="@drawable/all_button_radius_10dp"
+        android:backgroundTint="@color/navy_select_button"
         android:text="상세정보"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/white"
+        app:layout_constraintBaseline_toBaselineOf="@+id/activity_main_button_select"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
