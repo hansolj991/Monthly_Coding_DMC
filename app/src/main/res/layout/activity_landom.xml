@@ -34,7 +34,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="15dp"
-                android:layout_padding="15dp"
                 android:layout_weight="1"
                 android:background="@drawable/all_button_radius_10dp"
                 android:backgroundTint="#DDDCDC"
@@ -73,7 +72,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="15dp"
-                android:layout_padding="15dp"
                 android:layout_weight="1"
                 android:background="@drawable/all_button_radius_10dp"
                 android:backgroundTint="#DDDCDC"
@@ -112,7 +110,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="15dp"
-                android:layout_padding="15dp"
                 android:layout_weight="1"
                 android:background="@drawable/all_button_radius_10dp"
                 android:backgroundTint="#DDDCDC"
@@ -154,7 +151,6 @@
                 android:background="@drawable/all_button_radius_10dp"
                 android:backgroundTint="#DDDCDC"
                 android:layout_margin="15dp"
-                android:layout_padding="15dp"
                 android:orientation="vertical">
 
                 <LinearLayout
