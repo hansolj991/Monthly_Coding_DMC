@@ -7,24 +7,11 @@ import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import android.util.Log
 import java.io.*
-import android.hardware.Camera.open
-import android.os.ParcelFileDescriptor.open
-import android.system.Os.open
-import java.nio.channels.AsynchronousFileChannel.open
-import java.nio.channels.AsynchronousServerSocketChannel.open
-import java.nio.channels.AsynchronousSocketChannel.open
-import java.nio.channels.DatagramChannel.open
-import java.nio.channels.FileChannel.open
-import java.nio.channels.Pipe.open
-import java.nio.channels.Selector.open
-import java.nio.channels.ServerSocketChannel.open
-import java.nio.channels.SocketChannel.open
 
 class DBHelper(context: Context, name : String, factory : SQLiteDatabase.CursorFactory, version: Int):
                    SQLiteOpenHelper(context, name, factory, version) {
 
-    private val dbPath = ""
-    private val dbName = "SQL"
+    private val dbName = "SQLiteDatabase.db"
 
     //DB생성
     override fun onCreate(db: SQLiteDatabase) {
@@ -39,14 +26,14 @@ class DBHelper(context: Context, name : String, factory : SQLiteDatabase.CursorF
 
     //DB 파일 열기 함수
     @Throws(SQLException::class)
-    fun OpenDBFile(): Boolean {
+    fun OpenDBFile(context: Context): Boolean {
         //DB파일이 있는지 체크
         if (!CheckDatabaseFileExist()) {
-            CreateDatabase()
+            CreateDatabase(context)
         }
 
         //db경로
-        val mPath: String = dbPath + dbName
+        val mPath: String = dbName
 
         //DB 열기
         var mDatabase = null
@@ -59,20 +46,20 @@ class DBHelper(context: Context, name : String, factory : SQLiteDatabase.CursorF
     }
 
     fun CheckDatabaseFileExist(): Boolean {
-        val file = File(dbPath + dbName)
+        val file = File(dbName)
         return file.exists()
     }
 
     // DB 만들기
     @Throws(SQLException::class)
-    fun CreateDatabase() {
+    fun CreateDatabase(context: Context) {
         //DB 읽어오기
         this.readableDatabase
         close()
 
         //DB 복사
         try {
-            CopyDatabaseFile()
+            CopyDatabaseFile(context)
             Log.e(TAG, "[SUCCESS] $dbName are Created")
         } catch (ioException: IOException) {
             // Error Message
@@ -83,9 +70,9 @@ class DBHelper(context: Context, name : String, factory : SQLiteDatabase.CursorF
 
     // DB 복사
     @Throws(IOException::class)
-    fun CopyDatabaseFile() {
-        val inputStream: InputStream = Context.assets.open()
-        val outputFileName: String = dbPath + dbName
+    fun CopyDatabaseFile(context: Context) {
+        val inputStream: InputStream = context.assets.open(dbName)
+        val outputFileName: String = dbName
         val outputStream: OutputStream = FileOutputStream(outputFileName)
         val buffer = ByteArray(1024)
         var length: Int
