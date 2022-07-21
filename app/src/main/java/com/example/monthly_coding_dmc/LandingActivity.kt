@@ -13,8 +13,7 @@ class LandingActivity : AppCompatActivity() {
         Handler().postDelayed({
             val intent = Intent(this@LandingActivity, MainActivity::class.java)
             startActivity(intent)
-        }, 2000)
-        // 2초동안 activity_landing 화면을 띄우고 메인페이지로 넘어가는 함수
-
+            finish()
+        }, 3000)
     }
 }
