@@ -11,8 +11,8 @@
         android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
-            android:layout_marginTop="40dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
             android:layout_width="370dp"
             android:layout_height="152dp"
             android:layout_gravity="center"
@@ -36,6 +36,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="50dp"
                         android:gravity="center"
+                        android:fontFamily="@font/pretendard_light"
                         android:textAlignment="center"
                         android:textColor="#173430"
                         android:textSize="21sp"
@@ -66,7 +67,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_margin="19.9dp"
+            android:layout_margin="25dp"
             android:layout_width="370dp"
             android:layout_height="152dp"
             android:layout_gravity="center"
@@ -121,7 +122,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_margin="19.9dp"
+            android:layout_margin="25dp"
             android:layout_width="370dp"
             android:layout_height="152dp"
             android:layout_gravity="center"
@@ -174,7 +175,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_margin="19.9dp"
+            android:layout_margin="25dp"
             android:layout_width="370dp"
             android:layout_height="152dp"
             android:layout_gravity="center"
