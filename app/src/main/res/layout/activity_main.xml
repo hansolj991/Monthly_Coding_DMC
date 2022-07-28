@@ -16,23 +16,43 @@
             android:layout_width="370dp"
             android:layout_height="152dp"
             android:layout_gravity="center"
-            app:cardCornerRadius="20dp">
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
-                    android:gravity="center"
-                    android:text="점심랜덤추천"
-                    android:textAlignment="center"
-                    android:textColor="#173430"
-                    android:textSize="21sp"
-                    android:textStyle="bold" />
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="#173430"
+                        android:textSize="21sp"
+                        android:textStyle="bold"
+                        android:text="점심랜덤추천"/>
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="#FF395D"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        android:text="아무거나 먹을래 하는 사람들 여기로와"/>
+                </LinearLayout>
 
                 <ImageView
                     android:layout_width="match_parent"
@@ -50,7 +70,8 @@
             android:layout_width="370dp"
             android:layout_height="152dp"
             android:layout_gravity="center"
-            app:cardCornerRadius="20dp">
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
 
             <LinearLayout
 
@@ -58,16 +79,35 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
-                    android:gravity="center"
-                    android:text="음식점추천"
-                    android:textAlignment="center"
-                    android:textColor="#173430"
-                    android:textSize="21sp"
-                    android:textStyle="bold" />
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="#173430"
+                        android:textSize="21sp"
+                        android:textStyle="bold"
+                        android:text="음식점 추천"/>
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="학교5년다닌 16학번 선배가 추천하는"
+                        android:textAlignment="center"
+                        android:textColor="#FF395D"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
 
                 <ImageView
                     android:layout_width="match_parent"
@@ -85,24 +125,43 @@
             android:layout_width="370dp"
             android:layout_height="152dp"
             android:layout_gravity="center"
-            app:cardCornerRadius="20dp">
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
-                    android:gravity="center"
-                    android:text="학교점심지도"
-                    android:textAlignment="center"
-                    android:textColor="#173430"
-                    android:textSize="21sp"
-                    android:textStyle="bold" />
+                    android:orientation="vertical">
 
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="#173430"
+                        android:textSize="21sp"
+                        android:textStyle="bold"
+                        android:text="학교점심지도"/>
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="#FF395D"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        android:text="우리 주변에 점심 집이 뭐가있는지 봐봐"/>
+                </LinearLayout>
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -119,7 +178,8 @@
             android:layout_width="370dp"
             android:layout_height="152dp"
             android:layout_gravity="center"
-            app:cardCornerRadius="20dp">
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
 
             <LinearLayout
 
@@ -127,16 +187,35 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
-                    android:gravity="center"
-                    android:text="음식점정보"
-                    android:textAlignment="center"
-                    android:textColor="#173430"
-                    android:textSize="21sp"
-                    android:textStyle="bold" />
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="#173430"
+                        android:textSize="21sp"
+                        android:textStyle="bold"
+                        android:text="음식점정보"/>
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="#FF395D"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        android:text="이집만의 특별한 정보를 알려줄게 "/>
+                </LinearLayout>
 
                 <ImageView
                     android:layout_width="match_parent"
