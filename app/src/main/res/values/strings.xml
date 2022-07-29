@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Monthly_Coding_DMC</string>
+
+    <!-- 레스토랑 -->
+    <!-- 아이템 순서
+        0. 가게 이름
+        1. 요리
+        2. 영업시간
+        3. 전화번호
+        4. 주소
+        5. 비고
+    -->
+    <string-array name="restaurant_array">
+        <item>싸움의 고수</item>
+        <item>한식</item>
+        <item>11:00 - 22:00</item>
+        <item>02-2612-7779</item>
+        <item>서울 구로구 경인로47길 6</item>
+        <item>매일 영업</item>
+    </string-array>
 </resources>
