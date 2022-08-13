@@ -275,7 +275,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                android:text="즐기는 달콤한 맛!"
+                android:text="식후엔 뭐니뭐니해도 디저트!"
                 android:textColor="#000000"
                 android:textSize="20dp"
                 android:textStyle="bold" />

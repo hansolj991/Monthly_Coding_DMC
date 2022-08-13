@@ -1,11 +1,14 @@
 package com.example.monthly_coding_dmc
 
 import android.animation.ObjectAnimator
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.NumberPicker
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.interpolator.view.animation.FastOutLinearInInterpolator
+import org.w3c.dom.Text
 import kotlin.random.Random
 
 class RecommendActivity : AppCompatActivity() {
@@ -17,6 +20,8 @@ class RecommendActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val intent = intent //인텐트 받기
 
         setData()
         initListener()
