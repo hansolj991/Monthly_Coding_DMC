@@ -49,5 +49,19 @@ class RestaurantRecommendActivity : AppCompatActivity() {
         binding.restaurantTextSweet2.text = arraySweet2[1] //타코비&치즈볼
         val arraySweet3 = resources.getStringArray(R.array.restaurant_array4)
         binding.restaurantTextSweet3.text = arraySweet3[1] //YumYum
+
+        //사진 모서리 둥글게
+        binding.restaurantImgSpeed1.clipToOutline = true
+        binding.restaurantImgSpeed2.clipToOutline = true
+        binding.restaurantImgSpeed3.clipToOutline = true
+        binding.restaurantImgSpicy1.clipToOutline = true
+        binding.restaurantImgSpicy2.clipToOutline = true
+        binding.restaurantImgSpicy3.clipToOutline = true
+        binding.restaurantImgRecommend1.clipToOutline = true
+        binding.restaurantImgRecommend2.clipToOutline = true
+        binding.restaurantImgRecommend3.clipToOutline = true
+        binding.restaurantImgSweet1.clipToOutline = true
+        binding.restaurantImgSweet2.clipToOutline = true
+        binding.restaurantImgSweet3.clipToOutline = true
     }
 }

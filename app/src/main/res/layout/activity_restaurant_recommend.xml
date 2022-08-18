@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".RestaurantRecommendActivity">
 
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -30,10 +29,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/pretendard_extrabold"
                 android:text="신속하고 간편한 맛!"
                 android:textColor="#000000"
-                android:textSize="20dp"
-                android:textStyle="bold" />
+                android:textSize="20dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -53,12 +53,15 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:src="@drawable/bhc"
+                        android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_speed1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/pretendard_medium"
                         android:text="TextView" />
                 </LinearLayout>
 
@@ -74,12 +77,15 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:src="@drawable/bhc"
+                        android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_speed2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/pretendard_medium"
                         android:text="TextView" />
                 </LinearLayout>
 
@@ -95,12 +101,15 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:src="@drawable/bhc"
+                        android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_speed3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/pretendard_medium"
                         android:text="TextView" />
                 </LinearLayout>
 
@@ -112,16 +121,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/pretendard_extrabold"
                 android:text="가끔은 좋아! 즐기는 매운 맛!"
                 android:textColor="#000000"
-                android:textSize="20dp"
-                android:textStyle="bold" />
+                android:textSize="20dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="30dp"
-                android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -136,12 +145,15 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:src="@drawable/bhc"
+                        android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_spicy1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/pretendard_medium"
                         android:text="TextView" />
                 </LinearLayout>
 
@@ -157,12 +169,15 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:src="@drawable/bhc"
+                        android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_spicy2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/pretendard_medium"
                         android:text="TextView" />
                 </LinearLayout>
 
@@ -178,12 +193,15 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:src="@drawable/bhc"
+                        android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_spicy3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/pretendard_medium"
                         android:text="TextView" />
                 </LinearLayout>
 
@@ -195,16 +213,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/pretendard_extrabold"
                 android:text="동미대만의 추천 맛집!"
                 android:textColor="#000000"
-                android:textSize="20dp"
-                android:textStyle="bold" />
+                android:textSize="20dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="30dp"
-                android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -219,13 +237,15 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:src="@drawable/bhc"
+                        android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_recommend1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/pretendard_medium"
                         android:text="TextView" />
                 </LinearLayout>
 
@@ -241,13 +261,15 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:src="@drawable/bhc"
+                        android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_recommend2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/pretendard_medium"
                         android:text="TextView" />
                 </LinearLayout>
 
@@ -263,13 +285,15 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:src="@drawable/bhc"
+                        android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_recommend3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/pretendard_medium"
                         android:text="TextView" />
                 </LinearLayout>
 
@@ -281,16 +305,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/pretendard_extrabold"
                 android:text="식후엔 뭐니뭐니해도 디저트!"
                 android:textColor="#000000"
-                android:textSize="20dp"
-                android:textStyle="bold" />
+                android:textSize="20dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="30dp"
-                android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -305,13 +329,15 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:src="@drawable/bhc"
+                        android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_sweet1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/pretendard_medium"
                         android:text="TextView" />
                 </LinearLayout>
 
@@ -327,12 +353,15 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:src="@drawable/bhc"
+                        android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_sweet2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/pretendard_medium"
                         android:text="TextView" />
                 </LinearLayout>
 
@@ -348,13 +377,15 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:src="@drawable/bhc"
+                        android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_sweet3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/pretendard_medium"
                         android:text="TextView" />
                 </LinearLayout>
 
@@ -364,7 +395,7 @@
                 android:id="@+id/footer"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                tools:srcCompat="@drawable/footer" />
+                android:src="@drawable/footer" />
 
         </LinearLayout>
     </ScrollView>
