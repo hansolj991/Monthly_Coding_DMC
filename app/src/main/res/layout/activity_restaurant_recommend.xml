@@ -45,20 +45,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:gravity="center">
 
                     <ImageView
                         android:id="@+id/restaurant_img_speed1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/bhc"
+                        android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_speed1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
 
@@ -66,20 +66,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:gravity="center">
 
                     <ImageView
                         android:id="@+id/restaurant_img_speed2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/bhc"
+                        android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_speed2"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
 
@@ -87,20 +87,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:gravity="center">
 
                     <ImageView
                         android:id="@+id/restaurant_img_speed3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/bhc"
+                        android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_speed3"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
 
@@ -128,18 +128,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:gravity="center">
 
                     <ImageView
                         android:id="@+id/restaurant_img_spicy1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/bhc"
+                        android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_spicy1"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="TextView" />
                 </LinearLayout>
@@ -148,18 +149,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:gravity="center">
 
                     <ImageView
                         android:id="@+id/restaurant_img_spicy2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/bhc"
+                        android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_spicy2"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="TextView" />
                 </LinearLayout>
@@ -168,18 +170,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:gravity="center">
 
                     <ImageView
                         android:id="@+id/restaurant_img_spicy3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/bhc"
+                        android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_spicy3"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="TextView" />
                 </LinearLayout>
@@ -208,18 +211,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:gravity="center">
 
                     <ImageView
                         android:id="@+id/restaurant_img_recommend1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/bhc"
+                        android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_recommend1"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -229,18 +233,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:gravity="center">
 
                     <ImageView
                         android:id="@+id/restaurant_img_recommend2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/bhc"
+                        android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_recommend2"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -250,18 +255,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:gravity="center">
 
                     <ImageView
                         android:id="@+id/restaurant_img_recommend3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/bhc"
+                        android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_recommend3"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -291,18 +297,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:gravity="center">
 
                     <ImageView
                         android:id="@+id/restaurant_img_sweet1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/bhc"
+                        android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_sweet1"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
@@ -312,18 +319,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:gravity="center">
 
                     <ImageView
                         android:id="@+id/restaurant_img_sweet2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/bhc"
+                        android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_sweet2"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="TextView" />
                 </LinearLayout>
@@ -332,18 +340,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:gravity="center">
 
                     <ImageView
                         android:id="@+id/restaurant_img_sweet3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/bhc"
+                        android:scaleType="centerCrop" />
 
                     <TextView
                         android:id="@+id/restaurant_text_sweet3"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="TextView" />
