@@ -1,3 +1,711 @@
 <resources>
     <string name="app_name">Monthly_Coding_DMC</string>
+
+    <!-- 레스토랑 -->
+    <!-- 아이템 순서
+        0. id ([자동증가]auto_increment)
+        1. 가게 이름
+        2. 요리
+        3. 영업시간
+        4. 전화번호
+        5. 주소
+        6. 비고
+    -->
+    <!--
+        ?는 알수없는 정보
+        미기재는 특이사항이 없거나 알수없는 정보
+    -->
+    <string-array name="restaurant_array1">
+        <item>1</item>
+        <item>싸움의 고수</item>
+        <item>한식</item>
+        <item>11:00 - 22:00</item>
+        <item>02-2612-7779</item>
+        <item>서울 구로구 경인로47길 6</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array2">
+        <item>2</item>
+        <item>본죽</item>
+        <item>한식</item>
+        <item>10:00 - 22:00</item>
+        <item>02-2689-6288</item>
+        <item>서울 구로구 경인로47길 6</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array3">
+        <item>3</item>
+        <item>동명</item>
+        <item>일식</item>
+        <item>10:00 - 22:00</item>
+        <item>0507-1363-3351</item>
+        <item>서울 구로구 경인로47길 6 지하 1층</item>
+        <item>일요일 휴무</item>
+    </string-array>
+    <string-array name="restaurant_array4">
+        <item>4</item>
+        <item>YumYum</item>
+        <item>디저트</item>
+        <item>08:00 - 22:00</item>
+        <item>02-2060-7980</item>
+        <item>서울 구로구 경인로47길 8</item>
+        <item>일요일 휴무</item>
+    </string-array>
+    <string-array name="restaurant_array5">
+        <item>5</item>
+        <item>서브웨이</item>
+        <item>디저트</item>
+        <item>08:00 - 23:00</item>
+        <item>0507-1308-6890</item>
+        <item>서울 구로구 경인로 445 8호관 1층</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array6">
+        <item>6</item>
+        <item>곱분이곱창</item>
+        <item>한식</item>
+        <item>16:00 - 03:00</item>
+        <item>02-2066-9282</item>
+        <item>서울 구로구 경인로47길 14</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array7">
+        <item>7</item>
+        <item>맛닭꼬</item>
+        <item>양식</item>
+        <item>15:00 - 02:00</item>
+        <item>02-2619-5592</item>
+        <item>서울 구로구 경인로47길 14</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array8">
+        <item>8</item>
+        <item>지지고</item>
+        <item>한식</item>
+        <item>11:00 - 20:00</item>
+        <item>02-2687-8859</item>
+        <item>서울 구로구 경인로47길 18</item>
+        <item>주말, 공휴일 휴무</item>
+    </string-array>
+    <string-array name="restaurant_array9">
+        <item>9</item>
+        <item>통큰갈비</item>
+        <item>한식</item>
+        <item>14:00 - 24:00</item>
+        <item>0507-1381-9285</item>
+        <item>서울 구로구 경인로47길 22 1층</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array10">
+        <item>10</item>
+        <item>이삭토스트</item>
+        <item>디저트</item>
+        <item>09:00 - 21:00</item>
+        <item>02-2685-0322</item>
+        <item>서울 구로구 경인로47길 26</item>
+        <item>주말은 20시까지</item>
+    </string-array>
+    <string-array name="restaurant_array11">
+        <item>11</item>
+        <item>롯데리아</item>
+        <item>양식</item>
+        <item>09:00 - 23:00</item>
+        <item>02-2685-2226</item>
+        <item>서울 구로구 경인로47길 26</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array12">
+        <item>12</item>
+        <item>구이가</item>
+        <item>한식</item>
+        <item>16:00 - 03:00</item>
+        <item>02-2066-8717</item>
+        <item>서울 구로구 경인로47길 30</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array13">
+        <item>13</item>
+        <item>맘스터치</item>
+        <item>양식</item>
+        <item>10:30 - 22:00</item>
+        <item>0507-1412-8800</item>
+        <item>서울 구로구 경인로47길 30</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array14">
+        <item>14</item>
+        <item>돈발해</item>
+        <item>한식</item>
+        <item>11:00 - 01:00</item>
+        <item>02-2689-0033</item>
+        <item>서울 구로구 경인로47길 36</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array15">
+        <item>15</item>
+        <item>토마토김밥</item>
+        <item>한식</item>
+        <item>06:00 - 21:00</item>
+        <item>02-3666-0304</item>
+        <item>서울 구로구 경인로47길 40</item>
+        <item>월요일 휴무</item>
+    </string-array>
+    <string-array name="restaurant_array16">
+        <item>16</item>
+        <item>큰맘 할매순대국</item>
+        <item>한식</item>
+        <item>00:00 - 24:00</item>
+        <item>02-3666-1465</item>
+        <item>서울 구로구 경인로47길 42-2</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array17">
+        <item>17</item>
+        <item>홈루이젠</item>
+        <item>디저트</item>
+        <item>00:00 - 24:00</item>
+        <item>0507-1314-7664</item>
+        <item>서울 구로구 경인로47길 44 1층</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array18">
+        <item>18</item>
+        <item>최고당돈가스</item>
+        <item>양식</item>
+        <item>11:00 - 23:00</item>
+        <item>02-2685-0707</item>
+        <item>서울 구로구 경인로47길 44-1</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array19">
+        <item>19</item>
+        <item>고척돈가스</item>
+        <item>양식</item>
+        <item>06:00 - 21:00</item>
+        <item>02-2685-8080</item>
+        <item>서울 구로구 경인로47길 72</item>
+        <item>일요일 휴무</item>
+    </string-array>
+    <string-array name="restaurant_array20">
+        <item>20</item>
+        <item>백채 김치찌개</item>
+        <item>한식</item>
+        <item>11:00 - 22:00</item>
+        <item>070-7585-1629</item>
+        <item>서울 구로구 경인로47길 67 1층</item>
+        <item>일요일 휴무</item>
+    </string-array>
+    <string-array name="restaurant_array21">
+        <item>21</item>
+        <item>아부찌부대찌개</item>
+        <item>한식</item>
+        <item>10:30 - 22:00</item>
+        <item>02-2060-4414</item>
+        <item>서울 구로구 경인로47길 82</item>
+        <item>일요일 휴무</item>
+    </string-array>
+    <string-array name="restaurant_array22">
+        <item>22</item>
+        <item>만포 돼지국밥/순대국</item>
+        <item>한식</item>
+        <item>11:00 - 23:00</item>
+        <item>02-2616-6729</item>
+        <item>서울 구로구 경인로47길 31</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array23">
+        <item>23</item>
+        <item>피자스쿨</item>
+        <item>양식</item>
+        <item>11:00 - 22:00</item>
+        <item>02-877-4584</item>
+        <item>서울 구로구 경인로47길 31</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array24">
+        <item>24</item>
+        <item>홍춘천 치즈닭갈비</item>
+        <item>한식</item>
+        <item>11:30 - 23:30</item>
+        <item>02-2611-8958</item>
+        <item>서울 구로구 경인로47길 31</item>
+        <item>주말 휴무</item>
+    </string-array>
+    <string-array name="restaurant_array25">
+        <item>25</item>
+        <item>피자스쿨</item>
+        <item>양식</item>
+        <item>11:00 - 22:00</item>
+        <item>02-877-4584</item>
+        <item>서울 구로구 경인로47길 31</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array26">
+        <item>26</item>
+        <item>한솥 도시락</item>
+        <item>한식</item>
+        <item>09:00 - 21:00</item>
+        <item>02-2616-7444</item>
+        <item>서울 구로구 경인로47길 31</item>
+        <item>일요일 휴무, 토요일 18시까지</item>
+    </string-array>
+    <string-array name="restaurant_array27">
+        <item>27</item>
+        <item>걸작 떡볶이 치킨</item>
+        <item>한식</item>
+        <item>11:00 - 24:00</item>
+        <item>02-2682-2821</item>
+        <item>서울 구로구 경인로47길 27</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array28">
+        <item>28</item>
+        <item>타코비&amp;치즈볼</item>
+        <item>디저트</item>
+        <item>13:00 - 20:00</item>
+        <item>02-2681-3292</item>
+        <item>서울 구로구 경인로 433-1</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array29">
+        <item>29</item>
+        <item>일품 마라탕</item>
+        <item>중식</item>
+        <item>11:00 - 24:00</item>
+        <item>02-2135-9267</item>
+        <item>서울 구로구 경인로208 1층</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array30">
+        <item>30</item>
+        <item>빨봉분식</item>
+        <item>한식</item>
+        <item>10:30 - 23:30</item>
+        <item>070-4318-2338</item>
+        <item>서울 구로구 경인로47길 25</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array31">
+        <item>31</item>
+        <item>홍콩반점</item>
+        <item>중식</item>
+        <item>11:00 - 22:00</item>
+        <item>02-2614-0410</item>
+        <item>서울 구로구 경인로47길 23</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array32">
+        <item>32</item>
+        <item>놀부 부대찌개/철판구이</item>
+        <item>한식</item>
+        <item>10:30 - 22:00</item>
+        <item>02-2611-0082</item>
+        <item>서울 구로구 경인로47길 23</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array33">
+        <item>33</item>
+        <item>죠스떡볶이</item>
+        <item>한식</item>
+        <item>11:30 - 22:00</item>
+        <item>02-2060-8889</item>
+        <item>서울 구로구 경인로47길 47 7</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array34">
+        <item>34</item>
+        <item>엽기떡볶이</item>
+        <item>한식</item>
+        <item>11:00 - 22:00</item>
+        <item>02-2615-8592</item>
+        <item>서울 구로구 경인로47길 11</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array35">
+        <item>35</item>
+        <item>김밥왕국</item>
+        <item>한식</item>
+        <item>06:00 - 21:00</item>
+        <item>02-2689-6565</item>
+        <item>서울 구로구 경인로47길 13</item>
+        <item>주말 휴무</item>
+    </string-array>
+    <string-array name="restaurant_array36">
+        <item>36</item>
+        <item>뒤뜰</item>
+        <item>한식</item>
+        <item>11:30 - 22:00</item>
+        <item>0507-1306-1973</item>
+        <item>서울 구로구 안양천로539길 6</item>
+        <item>설날 / 추석 당일 휴무</item>
+    </string-array>
+    <string-array name="restaurant_array37">
+        <item>37</item>
+        <item>노랑통닭</item>
+        <item>양식</item>
+        <item>?</item>
+        <item>02-2066-8868</item>
+        <item>서울 구로구 경인로47길 22</item>
+        <item>미기재</item>
+    </string-array>
+    <string-array name="restaurant_array38">
+        <item>38</item>
+        <item>메가커피</item>
+        <item>디저트</item>
+        <item>08:00 - 23:00</item>
+        <item>0507-1337-4924</item>
+        <item>서울 구로구 경인로47길 26</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array39">
+        <item>39</item>
+        <item>투썸플레이스</item>
+        <item>디저트</item>
+        <item>10:00 - 23:00</item>
+        <item>02-2615-7557</item>
+        <item>서울 구로구 경인로47길 34-1</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array40">
+        <item>40</item>
+        <item>보드람치킨</item>
+        <item>양식</item>
+        <item>13:00 - 24:00</item>
+        <item>02-2625-9984</item>
+        <item>서울 구로구 경인로47길 36</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array41">
+        <item>41</item>
+        <item>삼삼치킨</item>
+        <item>양식</item>
+        <item>?</item>
+        <item>02-2692-9510</item>
+        <item>서울 구로구 경인로47길 42</item>
+        <item>미기재</item>
+    </string-array>
+    <string-array name="restaurant_array42">
+        <item>42</item>
+        <item>테니스 피자 펍</item>
+        <item>양식</item>
+        <item>17:00 - 02:00</item>
+        <item>02-2060-3929</item>
+        <item>서울 구로구 경인로47길 42-1</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array43">
+        <item>43</item>
+        <item>마포주먹고기</item>
+        <item>한식</item>
+        <item>?</item>
+        <item>02-2060-9297</item>
+        <item>서울 구로구 경인로47길 44-1</item>
+        <item>미기재</item>
+    </string-array>
+    <string-array name="restaurant_array44">
+        <item>44</item>
+        <item>언스틸</item>
+        <item>디저트</item>
+        <item>12:00 - 02:00</item>
+        <item>0507-1453-1980</item>
+        <item>서울 구로구 경인로47길 48</item>
+        <item>월요일 휴무</item>
+    </string-array>
+    <string-array name="restaurant_array45">
+        <item>45</item>
+        <item>고척칼국수</item>
+        <item>한식</item>
+        <item>10:00 - 21:00</item>
+        <item>02-2066-3239</item>
+        <item>서울 구로구 경인로47길 5</item>
+        <item>수요일 휴무</item>
+    </string-array>
+    <string-array name="restaurant_array46">
+        <item>46</item>
+        <item>진스시</item>
+        <item>일식</item>
+        <item>11:00 - 22:00</item>
+        <item>02-2611-9633</item>
+        <item>서울 구로구 경인로47길 58</item>
+        <item>월요일 휴무</item>
+    </string-array>
+    <string-array name="restaurant_array47">
+        <item>47</item>
+        <item>꼭지식당</item>
+        <item>한식</item>
+        <item>?</item>
+        <item>02-2066-3239</item>
+        <item>서울 구로구 경인로47길 58</item>
+        <item>미기재</item>
+    </string-array>
+    <string-array name="restaurant_array48">
+        <item>48</item>
+        <item>멕시카나치킨</item>
+        <item>양식</item>
+        <item>?</item>
+        <item>0507-964-1857</item>
+        <item>서울 구로구 경인로47길 58</item>
+        <item>미기재</item>
+    </string-array>
+    <string-array name="restaurant_array49">
+        <item>49</item>
+        <item>내고향왕만두</item>
+        <item>한식</item>
+        <item>?</item>
+        <item>?</item>
+        <item>서울 구로구 경인로47길 60</item>
+        <item>미기재</item>
+    </string-array>
+    <string-array name="restaurant_array50">
+        <item>50</item>
+        <item>하우마라</item>
+        <item>중식</item>
+        <item>10:00 - 22:00</item>
+        <item>0507-1446-8868</item>
+        <item>서울 구로구 경인로47길 64</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array51">
+        <item>51</item>
+        <item>고척동이태리</item>
+        <item>양식</item>
+        <item>11:30 - 22:00</item>
+        <item>070-8672-3361</item>
+        <item>서울 구로구 경인로47길 76</item>
+        <item>2, 4번째 일요일 정기휴무</item>
+    </string-array>
+    <string-array name="restaurant_array52">
+        <item>52</item>
+        <item>두부이야기</item>
+        <item>한식</item>
+        <item>09:00 - 22:00</item>
+        <item>02-3666-1008</item>
+        <item>서울 구로구 경인로47길 76</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array53">
+        <item>53</item>
+        <item>bhc</item>
+        <item>양식</item>
+        <item>12:00 - 24:00</item>
+        <item>0504-0953-0503</item>
+        <item>서울 구로구 경인로47길 82-1</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array54">
+        <item>54</item>
+        <item>전주맛집</item>
+        <item>한식</item>
+        <item>11:00 - 22:00</item>
+        <item>02-2618-8047</item>
+        <item>서울 구로구 경인로47길 82-1</item>
+        <item>일요일 정기휴무</item>
+    </string-array>
+    <string-array name="restaurant_array55">
+        <item>55</item>
+        <item>마니식당</item>
+        <item>한식</item>
+        <item>?</item>
+        <item>?</item>
+        <item>서울 구로구 경인로47길 94</item>
+        <item>미기재</item>
+    </string-array>
+    <string-array name="restaurant_array56">
+        <item>56</item>
+        <item>동산 닭요리</item>
+        <item>한식</item>
+        <item>10:00 - 22:00</item>
+        <item>02-2687-3378</item>
+        <item>서울 구로구 경인로47길 3</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array57">
+        <item>57</item>
+        <item>명가함흥냉면</item>
+        <item>한식</item>
+        <item>?</item>
+        <item>?</item>
+        <item>서울 구로구 경인로47길 8</item>
+        <item>미기재</item>
+    </string-array>
+    <string-array name="restaurant_array58">
+        <item>58</item>
+        <item>대박고깃집</item>
+        <item>한식</item>
+        <item>17:00 - 22:00</item>
+        <item>010-6279-3539</item>
+        <item>서울 구로구 경인로47길 116</item>
+        <item>일요일 정기휴무</item>
+    </string-array>
+    <string-array name="restaurant_array59">
+        <item>59</item>
+        <item>소문난 순대국 왕 족발</item>
+        <item>한식</item>
+        <item>10:00 - 21:30</item>
+        <item>02-2615-9486</item>
+        <item>서울 구로구 경인로47길 122</item>
+        <item>일요일 정기휴무</item>
+    </string-array>
+    <string-array name="restaurant_array60">
+        <item>60</item>
+        <item>곱창마을</item>
+        <item>한식</item>
+        <item>?</item>
+        <item>02-6369-2323</item>
+        <item>서울 구로구 경인로47길 122</item>
+        <item>미기재</item>
+    </string-array>
+    <string-array name="restaurant_array61">
+        <item>61</item>
+        <item>취화원</item>
+        <item>중식</item>
+        <item>?</item>
+        <item>02-2066-4952</item>
+        <item>서울 구로구 경인로47길 134</item>
+        <item>월요일 휴무</item>
+    </string-array>
+    <string-array name="restaurant_array62">
+        <item>62</item>
+        <item>아마스빈 버블티</item>
+        <item>디저트</item>
+        <item>?</item>
+        <item>02-2060-9500</item>
+        <item>서울 구로구 경인로47길 11</item>
+        <item>미기재</item>
+    </string-array>
+    <string-array name="restaurant_array63">
+        <item>63</item>
+        <item>경성꽈배기</item>
+        <item>디저트</item>
+        <item>?</item>
+        <item>0507-1403-4870</item>
+        <item>서울 구로구 경인로47길 13</item>
+        <item>미기재</item>
+    </string-array>
+    <string-array name="restaurant_array64">
+        <item>64</item>
+        <item>컴포즈 커피</item>
+        <item>디저트</item>
+        <item>08:00 - 23:00</item>
+        <item>02-2066-9020</item>
+        <item>서울 구로구 중앙로 6길 50</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array65">
+        <item>65</item>
+        <item>전주식당</item>
+        <item>한식</item>
+        <item>09:00 - 22:00</item>
+        <item>02-2686-9254</item>
+        <item>서울 구로구 중앙로 6길 50</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array66">
+        <item>66</item>
+        <item>avendutch</item>
+        <item>디저트</item>
+        <item>09:40 - 21:20</item>
+        <item>070-8801-5505</item>
+        <item>서울 구로구 중앙로 6길 50</item>
+        <item>주말은 7:50부터 시작</item>
+    </string-array>
+    <string-array name="restaurant_array67">
+        <item>67</item>
+        <item>303 place</item>
+        <item>양식</item>
+        <item>11:00 - 02:00</item>
+        <item>0507-1335-9527</item>
+        <item>서울 구로구 중앙로 6길 50</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array68">
+        <item>68</item>
+        <item>전가복</item>
+        <item>중식</item>
+        <item>10:30 - 20:30</item>
+        <item>0504-0953-0511</item>
+        <item>서울 구로구 중앙로 6길 46</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array69">
+        <item>69</item>
+        <item>향촌숯불돈갈비</item>
+        <item>한식</item>
+        <item>11:00 - 22:00</item>
+        <item>0507-1327-7537</item>
+        <item>서울 구로구 중앙로 6길 40</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array70">
+        <item>70</item>
+        <item>은성이네 식당</item>
+        <item>한식</item>
+        <item>?</item>
+        <item>02-2617-6493</item>
+        <item>서울 구로구 중앙로 6길 9</item>
+        <item>미기재</item>
+    </string-array>
+    <string-array name="restaurant_array71">
+        <item>71</item>
+        <item>생각나는 울엄마찌개</item>
+        <item>한식</item>
+        <item>?</item>
+        <item>?</item>
+        <item>서울 구로구 중앙로 6길 5-15</item>
+        <item>미기재</item>
+    </string-array>
+    <string-array name="restaurant_array72">
+        <item>72</item>
+        <item>양꼬치 훠궈</item>
+        <item>중식</item>
+        <item>14:00 - 02:00</item>
+        <item>0507-1416-9091</item>
+        <item>서울 구로구 중앙로 32</item>
+        <item>일요일 23시까지</item>
+    </string-array>
+    <string-array name="restaurant_array73">
+        <item>73</item>
+        <item>꿀꿀이 생고기 맛집</item>
+        <item>한식</item>
+        <item>?</item>
+        <item>02-2686-2049</item>
+        <item>서울 구로구 중앙로 32</item>
+        <item>미기재</item>
+    </string-array>
+    <string-array name="restaurant_array74">
+        <item>74</item>
+        <item>와플대학</item>
+        <item>디저트</item>
+        <item>12:30 - 22:30</item>
+        <item>02-2615-3855</item>
+        <item>서울 구로구 경인로47길 25</item>
+        <item>주말은 11:30부터 시작</item>
+    </string-array>
+    <string-array name="restaurant_array75">
+        <item>75</item>
+        <item>뜸들이다</item>
+        <item>일식</item>
+        <item>10:30 - 20:30</item>
+        <item>0507-1408-8102</item>
+        <item>서울 구로구 경인로47길 49</item>
+        <item>매일 영업</item>
+    </string-array>
+    <string-array name="restaurant_array76">
+        <item>76</item>
+        <item>난연스시</item>
+        <item>일식</item>
+        <item>11:30 - 22:00</item>
+        <item>02-2625-1129</item>
+        <item>서울 구로구 중앙로 6길 17</item>
+        <item>일요일 정기휴무</item>
+    </string-array>
+    <string-array name="restaurant_array77">
+        <item>77</item>
+        <item>제주몰빵</item>
+        <item>카페</item>
+        <item>08:00 - 20:00</item>
+        <item>070-5175-7214</item>
+        <item>서울 구로구 경인로 445 8호관 2층</item>
+        <item>주말은 10시부터 운영, 공연날은 다름</item>
+    </string-array>
 </resources>

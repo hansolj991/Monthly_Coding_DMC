@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Monthly_Coding_DMC">
         <activity
+            android:name=".activity_recommand"
+            android:exported="true" />
+        <activity
+            android:name=".RestaurantRecommendActivity"
+            android:exported="true" />
+        <activity
             android:name=".RestaurantDetailActivity"
             android:exported="true" />
         <activity
