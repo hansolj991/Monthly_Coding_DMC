@@ -10,6 +10,10 @@
         4. 전화번호
         5. 주소
         6. 비고
+        7. 가게 배너 사진
+        8. 가게 메뉴1 사진
+        9. 가게 메뉴2 사진
+        10. 가게 메뉴3 사진
     -->
     <!--
         ?는 알수없는 정보
@@ -23,6 +27,10 @@
         <item>02-2612-7779</item>
         <item>서울 구로구 경인로47길 6</item>
         <item>매일 영업</item>
+        <item>restaurant1_banner</item>
+        <item>restaurant1_menu1</item>
+        <item>restaurant1_menu2</item>
+        <item>restaurant1_menu3</item>
     </string-array>
     <string-array name="restaurant_array2">
         <item>2</item>
@@ -32,6 +40,10 @@
         <item>02-2689-6288</item>
         <item>서울 구로구 경인로47길 6</item>
         <item>매일 영업</item>
+        <item>restaurant2_banner</item>
+        <item>restaurant2_menu1</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array3">
         <item>3</item>
@@ -41,6 +53,10 @@
         <item>0507-1363-3351</item>
         <item>서울 구로구 경인로47길 6 지하 1층</item>
         <item>일요일 휴무</item>
+        <item>restaurant3_banner</item>
+        <item>restaurant3_menu1</item>
+        <item>restaurant3_menu2</item>
+        <item>restaurant3_menu3</item>
     </string-array>
     <string-array name="restaurant_array4">
         <item>4</item>
@@ -50,6 +66,10 @@
         <item>02-2060-7980</item>
         <item>서울 구로구 경인로47길 8</item>
         <item>일요일 휴무</item>
+        <item>restaurant4_banner</item>
+        <item>?</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array5">
         <item>5</item>
@@ -59,6 +79,10 @@
         <item>0507-1308-6890</item>
         <item>서울 구로구 경인로 445 8호관 1층</item>
         <item>매일 영업</item>
+        <item>restaurant5_banner</item>
+        <item>?</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array6">
         <item>6</item>
@@ -68,6 +92,10 @@
         <item>02-2066-9282</item>
         <item>서울 구로구 경인로47길 14</item>
         <item>매일 영업</item>
+        <item>restaurant6_banner</item>
+        <item>?</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array7">
         <item>7</item>
@@ -77,6 +105,10 @@
         <item>02-2619-5592</item>
         <item>서울 구로구 경인로47길 14</item>
         <item>매일 영업</item>
+        <item>restaurant7_banner</item>
+        <item>restaurant7_menu1</item>
+        <item>restaurant7_menu2</item>
+        <item>restaurant7_menu3</item>
     </string-array>
     <string-array name="restaurant_array8">
         <item>8</item>
@@ -86,6 +118,10 @@
         <item>02-2687-8859</item>
         <item>서울 구로구 경인로47길 18</item>
         <item>주말, 공휴일 휴무</item>
+        <item>restaurant8_banner</item>
+        <item>restaurant8_menu1</item>
+        <item>restaurant8_menu2</item>
+        <item>restaurant8_menu3</item>
     </string-array>
     <string-array name="restaurant_array9">
         <item>9</item>
@@ -95,6 +131,10 @@
         <item>0507-1381-9285</item>
         <item>서울 구로구 경인로47길 22 1층</item>
         <item>매일 영업</item>
+        <item>restaurant9_banner</item>
+        <item>?</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array10">
         <item>10</item>
@@ -104,6 +144,10 @@
         <item>02-2685-0322</item>
         <item>서울 구로구 경인로47길 26</item>
         <item>주말은 20시까지</item>
+        <item>restaurant10_banner</item>
+        <item>restaurant10_menu1</item>
+        <item>restaurant10_menu2</item>
+        <item>restaurant10_menu3</item>
     </string-array>
     <string-array name="restaurant_array11">
         <item>11</item>
@@ -113,6 +157,10 @@
         <item>02-2685-2226</item>
         <item>서울 구로구 경인로47길 26</item>
         <item>매일 영업</item>
+        <item>restaurant11_banner</item>
+        <item>restaurant11_menu1</item>
+        <item>restaurant11_menu2</item>
+        <item>restaurant11_menu3</item>
     </string-array>
     <string-array name="restaurant_array12">
         <item>12</item>
@@ -122,6 +170,10 @@
         <item>02-2066-8717</item>
         <item>서울 구로구 경인로47길 30</item>
         <item>매일 영업</item>
+        <item>restaurant12_banner</item>
+        <item>?</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array13">
         <item>13</item>
@@ -131,6 +183,10 @@
         <item>0507-1412-8800</item>
         <item>서울 구로구 경인로47길 30</item>
         <item>매일 영업</item>
+        <item>restaurant13_banner</item>
+        <item>restaurant13_menu1</item>
+        <item>restaurant13_menu2</item>
+        <item>restaurant13_menu3</item>
     </string-array>
     <string-array name="restaurant_array14">
         <item>14</item>
@@ -140,6 +196,10 @@
         <item>02-2689-0033</item>
         <item>서울 구로구 경인로47길 36</item>
         <item>매일 영업</item>
+        <item>restaurant14_banner</item>
+        <item>?</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array15">
         <item>15</item>
@@ -149,6 +209,10 @@
         <item>02-3666-0304</item>
         <item>서울 구로구 경인로47길 40</item>
         <item>월요일 휴무</item>
+        <item>restaurant15_banner</item>
+        <item>?</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array16">
         <item>16</item>
@@ -158,6 +222,10 @@
         <item>02-3666-1465</item>
         <item>서울 구로구 경인로47길 42-2</item>
         <item>매일 영업</item>
+        <item>restaurant16_banner</item>
+        <item>restaurant16_menu1</item>
+        <item>restaurant16_menu2</item>
+        <item>restaurant16_menu3</item>
     </string-array>
     <string-array name="restaurant_array17">
         <item>17</item>
@@ -167,6 +235,10 @@
         <item>0507-1314-7664</item>
         <item>서울 구로구 경인로47길 44 1층</item>
         <item>매일 영업</item>
+        <item>restaurant17_banner</item>
+        <item>restaurant17_menu1</item>
+        <item>restaurant17_menu1</item>
+        <item>restaurant17_menu1</item>
     </string-array>
     <string-array name="restaurant_array18">
         <item>18</item>
@@ -176,6 +248,10 @@
         <item>02-2685-0707</item>
         <item>서울 구로구 경인로47길 44-1</item>
         <item>매일 영업</item>
+        <item>restaurant18_banner</item>
+        <item>restaurant18_menu1</item>
+        <item>restaurant18_menu2</item>
+        <item>restaurant18_menu3</item>
     </string-array>
     <string-array name="restaurant_array19">
         <item>19</item>
@@ -185,6 +261,10 @@
         <item>02-2685-8080</item>
         <item>서울 구로구 경인로47길 72</item>
         <item>일요일 휴무</item>
+        <item>restaurant19_banner</item>
+        <item>?</item>
+        <item>restaurant19_menu2</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array20">
         <item>20</item>
@@ -194,6 +274,10 @@
         <item>070-7585-1629</item>
         <item>서울 구로구 경인로47길 67 1층</item>
         <item>일요일 휴무</item>
+        <item>restaurant20_banner</item>
+        <item>restaurant20_menu1</item>
+        <item>?</item>
+        <item>restaurant20_menu3</item>
     </string-array>
     <string-array name="restaurant_array21">
         <item>21</item>
@@ -203,6 +287,10 @@
         <item>02-2060-4414</item>
         <item>서울 구로구 경인로47길 82</item>
         <item>일요일 휴무</item>
+        <item>restaurant21_banner</item>
+        <item>restaurant21_menu1</item>
+        <item>restaurant21_menu2</item>
+        <item>restaurant21_menu3</item>
     </string-array>
     <string-array name="restaurant_array22">
         <item>22</item>
@@ -212,6 +300,10 @@
         <item>02-2616-6729</item>
         <item>서울 구로구 경인로47길 31</item>
         <item>매일 영업</item>
+        <item>restaurant22_banner</item>
+        <item>restaurant22_menu1</item>
+        <item>restaurant22_menu2</item>
+        <item>restaurant22_menu3</item>
     </string-array>
     <string-array name="restaurant_array23">
         <item>23</item>
@@ -221,6 +313,10 @@
         <item>02-877-4584</item>
         <item>서울 구로구 경인로47길 31</item>
         <item>매일 영업</item>
+        <item>restaurant23_banner</item>
+        <item>restaurant23_menu1</item>
+        <item>restaurant23_menu2</item>
+        <item>restaurant23_menu3</item>
     </string-array>
     <string-array name="restaurant_array24">
         <item>24</item>
@@ -230,15 +326,23 @@
         <item>02-2611-8958</item>
         <item>서울 구로구 경인로47길 31</item>
         <item>주말 휴무</item>
+        <item>restaurant24_banner</item>
+        <item>restaurant24_menu1</item>
+        <item>restaurant24_menu2</item>
+        <item>restaurant24_menu3</item>
     </string-array>
     <string-array name="restaurant_array25">
         <item>25</item>
-        <item>피자스쿨</item>
-        <item>양식</item>
-        <item>11:00 - 22:00</item>
-        <item>02-877-4584</item>
-        <item>서울 구로구 경인로47길 31</item>
-        <item>매일 영업</item>
+        <item>제주몰빵</item>
+        <item>카페</item>
+        <item>08:00 - 20:00</item>
+        <item>070-5175-7214</item>
+        <item>서울 구로구 경인로 445 8호관 2층</item>
+        <item>주말은 10시부터 운영, 공연날은 다름</item>
+        <item>restaurant25_banner</item>
+        <item>restaurant25_menu1</item>
+        <item>restaurant25_menu2</item>
+        <item>restaurant25_menu3</item>
     </string-array>
     <string-array name="restaurant_array26">
         <item>26</item>
@@ -248,6 +352,10 @@
         <item>02-2616-7444</item>
         <item>서울 구로구 경인로47길 31</item>
         <item>일요일 휴무, 토요일 18시까지</item>
+        <item>restaurant26_banner</item>
+        <item>restaurant26_menu1</item>
+        <item>restaurant26_menu2</item>
+        <item>restaurant26_menu3</item>
     </string-array>
     <string-array name="restaurant_array27">
         <item>27</item>
@@ -257,6 +365,10 @@
         <item>02-2682-2821</item>
         <item>서울 구로구 경인로47길 27</item>
         <item>매일 영업</item>
+        <item>restaurant27_banner</item>
+        <item>restaurant27_menu1</item>
+        <item>restaurant27_menu2</item>
+        <item>restaurant27_menu3</item>
     </string-array>
     <string-array name="restaurant_array28">
         <item>28</item>
@@ -266,6 +378,10 @@
         <item>02-2681-3292</item>
         <item>서울 구로구 경인로 433-1</item>
         <item>매일 영업</item>
+        <item>restaurant28_banner</item>
+        <item>?</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array29">
         <item>29</item>
@@ -275,6 +391,10 @@
         <item>02-2135-9267</item>
         <item>서울 구로구 경인로208 1층</item>
         <item>매일 영업</item>
+        <item>restaurant29_banner</item>
+        <item>?</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array30">
         <item>30</item>
@@ -284,6 +404,10 @@
         <item>070-4318-2338</item>
         <item>서울 구로구 경인로47길 25</item>
         <item>매일 영업</item>
+        <item>restaurant30_banner</item>
+        <item>?</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array31">
         <item>31</item>
@@ -293,6 +417,10 @@
         <item>02-2614-0410</item>
         <item>서울 구로구 경인로47길 23</item>
         <item>매일 영업</item>
+        <item>restaurant31_banner</item>
+        <item>restaurant31_menu1</item>
+        <item>restaurant31_menu2</item>
+        <item>restaurant31_menu3</item>
     </string-array>
     <string-array name="restaurant_array32">
         <item>32</item>
@@ -302,6 +430,10 @@
         <item>02-2611-0082</item>
         <item>서울 구로구 경인로47길 23</item>
         <item>매일 영업</item>
+        <item>restaurant32_banner</item>
+        <item>?</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array33">
         <item>33</item>
@@ -311,6 +443,10 @@
         <item>02-2060-8889</item>
         <item>서울 구로구 경인로47길 47 7</item>
         <item>매일 영업</item>
+        <item>restaurant33_banner</item>
+        <item>restaurant33_menu1</item>
+        <item>restaurant33_menu2</item>
+        <item>restaurant33_menu3</item>
     </string-array>
     <string-array name="restaurant_array34">
         <item>34</item>
@@ -320,6 +456,10 @@
         <item>02-2615-8592</item>
         <item>서울 구로구 경인로47길 11</item>
         <item>매일 영업</item>
+        <item>restaurant34_banner</item>
+        <item>restaurant34_menu1</item>
+        <item>restaurant34_menu2</item>
+        <item>restaurant34_menu3</item>
     </string-array>
     <string-array name="restaurant_array35">
         <item>35</item>
@@ -329,6 +469,10 @@
         <item>02-2689-6565</item>
         <item>서울 구로구 경인로47길 13</item>
         <item>주말 휴무</item>
+        <item>restaurant35_banner</item>
+        <item>?</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array36">
         <item>36</item>
@@ -347,6 +491,10 @@
         <item>02-2066-8868</item>
         <item>서울 구로구 경인로47길 22</item>
         <item>미기재</item>
+        <item>restaurant37_banner</item>
+        <item>restaurant37_menu1</item>
+        <item>restaurant37_menu2</item>
+        <item>restaurant37_menu3</item>
     </string-array>
     <string-array name="restaurant_array38">
         <item>38</item>
@@ -356,6 +504,10 @@
         <item>0507-1337-4924</item>
         <item>서울 구로구 경인로47길 26</item>
         <item>매일 영업</item>
+        <item>restaurant38_banner</item>
+        <item>?</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array39">
         <item>39</item>
@@ -365,6 +517,10 @@
         <item>02-2615-7557</item>
         <item>서울 구로구 경인로47길 34-1</item>
         <item>매일 영업</item>
+        <item>restaurant39_banner</item>
+        <item>restaurant39_menu1</item>
+        <item>restaurant39_menu2</item>
+        <item>restaurant39_menu3</item>
     </string-array>
     <string-array name="restaurant_array40">
         <item>40</item>
@@ -374,6 +530,10 @@
         <item>02-2625-9984</item>
         <item>서울 구로구 경인로47길 36</item>
         <item>매일 영업</item>
+        <item>restaurant40_banner</item>
+        <item>restaurant40_menu1</item>
+        <item>restaurant40_menu2</item>
+        <item>restaurant40_menu3</item>
     </string-array>
     <string-array name="restaurant_array41">
         <item>41</item>
@@ -383,6 +543,10 @@
         <item>02-2692-9510</item>
         <item>서울 구로구 경인로47길 42</item>
         <item>미기재</item>
+        <item>restaurant41_banner</item>
+        <item>?</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array42">
         <item>42</item>
@@ -392,6 +556,10 @@
         <item>02-2060-3929</item>
         <item>서울 구로구 경인로47길 42-1</item>
         <item>매일 영업</item>
+        <item>restaurant42_banner</item>
+        <item>restaurant42_menu1</item>
+        <item>restaurant42_menu1</item>
+        <item>restaurant42_menu1</item>
     </string-array>
     <string-array name="restaurant_array43">
         <item>43</item>
@@ -401,6 +569,10 @@
         <item>02-2060-9297</item>
         <item>서울 구로구 경인로47길 44-1</item>
         <item>미기재</item>
+        <item>restaurant43_banner</item>
+        <item>?</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array44">
         <item>44</item>
@@ -410,6 +582,10 @@
         <item>0507-1453-1980</item>
         <item>서울 구로구 경인로47길 48</item>
         <item>월요일 휴무</item>
+        <item>restaurant44_banner</item>
+        <item>restaurant44_menu1</item>
+        <item>restaurant44_menu2</item>
+        <item>restaurant44_menu3</item>
     </string-array>
     <string-array name="restaurant_array45">
         <item>45</item>
@@ -419,6 +595,10 @@
         <item>02-2066-3239</item>
         <item>서울 구로구 경인로47길 5</item>
         <item>수요일 휴무</item>
+        <item>restaurant45_banner</item>
+        <item>restaurant45_menu1</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array46">
         <item>46</item>
@@ -428,6 +608,10 @@
         <item>02-2611-9633</item>
         <item>서울 구로구 경인로47길 58</item>
         <item>월요일 휴무</item>
+        <item>restaurant46_banner</item>
+        <item>restaurant46_menu1</item>
+        <item>restaurant46_menu2</item>
+        <item>restaurant46_menu3</item>
     </string-array>
     <string-array name="restaurant_array47">
         <item>47</item>
@@ -437,6 +621,10 @@
         <item>02-2066-3239</item>
         <item>서울 구로구 경인로47길 58</item>
         <item>미기재</item>
+        <item>restaurant47_banner</item>
+        <item>?</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array48">
         <item>48</item>
@@ -446,6 +634,10 @@
         <item>0507-964-1857</item>
         <item>서울 구로구 경인로47길 58</item>
         <item>미기재</item>
+        <item>restaurant48_banner</item>
+        <item>restaurant48_menu1</item>
+        <item>restaurant48_menu2</item>
+        <item>restaurant48_menu3</item>
     </string-array>
     <string-array name="restaurant_array49">
         <item>49</item>
@@ -455,6 +647,10 @@
         <item>?</item>
         <item>서울 구로구 경인로47길 60</item>
         <item>미기재</item>
+        <item>restaurant49_banner</item>
+        <item>?</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array50">
         <item>50</item>
@@ -464,6 +660,10 @@
         <item>0507-1446-8868</item>
         <item>서울 구로구 경인로47길 64</item>
         <item>매일 영업</item>
+        <item>restaurant50_banner</item>
+        <item>restaurant50_menu1</item>
+        <item>restaurant50_menu2</item>
+        <item>restaurant50_menu3</item>
     </string-array>
     <string-array name="restaurant_array51">
         <item>51</item>
@@ -473,6 +673,10 @@
         <item>070-8672-3361</item>
         <item>서울 구로구 경인로47길 76</item>
         <item>2, 4번째 일요일 정기휴무</item>
+        <item>restaurant51_banner</item>
+        <item>restaurant51_menu1</item>
+        <item>restaurant51_menu2</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array52">
         <item>52</item>
@@ -482,6 +686,10 @@
         <item>02-3666-1008</item>
         <item>서울 구로구 경인로47길 76</item>
         <item>매일 영업</item>
+        <item>restaurant52_banner</item>
+        <item>restaurant52_menu1</item>
+        <item>?</item>
+        <item>restaurant52_menu3</item>
     </string-array>
     <string-array name="restaurant_array53">
         <item>53</item>
@@ -491,6 +699,10 @@
         <item>0504-0953-0503</item>
         <item>서울 구로구 경인로47길 82-1</item>
         <item>매일 영업</item>
+        <item>restaurant53_banner</item>
+        <item>restaurant53_menu1</item>
+        <item>restaurant53_menu2</item>
+        <item>restaurant53_menu3</item>
     </string-array>
     <string-array name="restaurant_array54">
         <item>54</item>
@@ -500,6 +712,10 @@
         <item>02-2618-8047</item>
         <item>서울 구로구 경인로47길 82-1</item>
         <item>일요일 정기휴무</item>
+        <item>restaurant54_banner</item>
+        <item>restaurant54_menu1</item>
+        <item>restaurant54_menu2</item>
+        <item>restaurant54_menu3</item>
     </string-array>
     <string-array name="restaurant_array55">
         <item>55</item>
@@ -509,6 +725,10 @@
         <item>?</item>
         <item>서울 구로구 경인로47길 94</item>
         <item>미기재</item>
+        <item>restaurant55_banner</item>
+        <item>restaurant55_menu1</item>
+        <item>restaurant55_menu2</item>
+        <item>restaurant55_menu3</item>
     </string-array>
     <string-array name="restaurant_array56">
         <item>56</item>
@@ -518,6 +738,10 @@
         <item>02-2687-3378</item>
         <item>서울 구로구 경인로47길 3</item>
         <item>매일 영업</item>
+        <item>restaurant56_banner</item>
+        <item>restaurant56_menu1</item>
+        <item>restaurant56_menu2</item>
+        <item>restaurant56_menu3</item>
     </string-array>
     <string-array name="restaurant_array57">
         <item>57</item>
@@ -527,6 +751,10 @@
         <item>?</item>
         <item>서울 구로구 경인로47길 8</item>
         <item>미기재</item>
+        <item>restaurant57_banner</item>
+        <item>restaurant57_menu1</item>
+        <item>restaurant57_menu2</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array58">
         <item>58</item>
@@ -536,6 +764,10 @@
         <item>010-6279-3539</item>
         <item>서울 구로구 경인로47길 116</item>
         <item>일요일 정기휴무</item>
+        <item>restaurant58_banner</item>
+        <item>restaurant58_menu1</item>
+        <item>restaurant58_menu2</item>
+        <item>restaurant58_menu3</item>
     </string-array>
     <string-array name="restaurant_array59">
         <item>59</item>
@@ -545,6 +777,10 @@
         <item>02-2615-9486</item>
         <item>서울 구로구 경인로47길 122</item>
         <item>일요일 정기휴무</item>
+        <item>restaurant59_banner</item>
+        <item>restaurant59_menu1</item>
+        <item>restaurant59_menu2</item>
+        <item>restaurant59_menu3</item>
     </string-array>
     <string-array name="restaurant_array60">
         <item>60</item>
@@ -554,6 +790,10 @@
         <item>02-6369-2323</item>
         <item>서울 구로구 경인로47길 122</item>
         <item>미기재</item>
+        <item>restaurant60_banner</item>
+        <item>restaurant60_menu1</item>
+        <item>restaurant60_menu2</item>
+        <item>restaurant60_menu3</item>
     </string-array>
     <string-array name="restaurant_array61">
         <item>61</item>
@@ -563,6 +803,10 @@
         <item>02-2066-4952</item>
         <item>서울 구로구 경인로47길 134</item>
         <item>월요일 휴무</item>
+        <item>restaurant61_banner</item>
+        <item>restaurant61_menu1</item>
+        <item>restaurant61_menu2</item>
+        <item>restaurant61_menu3</item>
     </string-array>
     <string-array name="restaurant_array62">
         <item>62</item>
@@ -572,6 +816,10 @@
         <item>02-2060-9500</item>
         <item>서울 구로구 경인로47길 11</item>
         <item>미기재</item>
+        <item>restaurant62_banner</item>
+        <item>restaurant62_menu1</item>
+        <item>restaurant62_menu2</item>
+        <item>restaurant62_menu3</item>
     </string-array>
     <string-array name="restaurant_array63">
         <item>63</item>
@@ -581,6 +829,10 @@
         <item>0507-1403-4870</item>
         <item>서울 구로구 경인로47길 13</item>
         <item>미기재</item>
+        <item>restaurant63_banner</item>
+        <item>restaurant63_menu1</item>
+        <item>restaurant63_menu2</item>
+        <item>restaurant63_menu3</item>
     </string-array>
     <string-array name="restaurant_array64">
         <item>64</item>
@@ -590,6 +842,10 @@
         <item>02-2066-9020</item>
         <item>서울 구로구 중앙로 6길 50</item>
         <item>매일 영업</item>
+        <item>restaurant64_banner</item>
+        <item>restaurant64_menu1</item>
+        <item>restaurant64_menu2</item>
+        <item>restaurant64_menu3</item>
     </string-array>
     <string-array name="restaurant_array65">
         <item>65</item>
@@ -599,6 +855,10 @@
         <item>02-2686-9254</item>
         <item>서울 구로구 중앙로 6길 50</item>
         <item>매일 영업</item>
+        <item>restaurant65_banner</item>
+        <item>restaurant65_menu1</item>
+        <item>restaurant65_menu2</item>
+        <item>restaurant65_menu3</item>
     </string-array>
     <string-array name="restaurant_array66">
         <item>66</item>
@@ -608,6 +868,10 @@
         <item>070-8801-5505</item>
         <item>서울 구로구 중앙로 6길 50</item>
         <item>주말은 7:50부터 시작</item>
+        <item>restaurant66_banner</item>
+        <item>?</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array67">
         <item>67</item>
@@ -617,6 +881,10 @@
         <item>0507-1335-9527</item>
         <item>서울 구로구 중앙로 6길 50</item>
         <item>매일 영업</item>
+        <item>restaurant67_banner</item>
+        <item>restaurant67_menu1</item>
+        <item>restaurant67_menu2</item>
+        <item>restaurant67_menu3</item>
     </string-array>
     <string-array name="restaurant_array68">
         <item>68</item>
@@ -626,6 +894,10 @@
         <item>0504-0953-0511</item>
         <item>서울 구로구 중앙로 6길 46</item>
         <item>매일 영업</item>
+        <item>restaurant68_banner</item>
+        <item>restaurant68_menu1</item>
+        <item>restaurant68_menu2</item>
+        <item>restaurant68_menu3</item>
     </string-array>
     <string-array name="restaurant_array69">
         <item>69</item>
@@ -635,6 +907,10 @@
         <item>0507-1327-7537</item>
         <item>서울 구로구 중앙로 6길 40</item>
         <item>매일 영업</item>
+        <item>restaurant69_banner</item>
+        <item>restaurant69_menu1</item>
+        <item>restaurant69_menu2</item>
+        <item>restaurant69_menu3</item>
     </string-array>
     <string-array name="restaurant_array70">
         <item>70</item>
@@ -644,6 +920,10 @@
         <item>02-2617-6493</item>
         <item>서울 구로구 중앙로 6길 9</item>
         <item>미기재</item>
+        <item>restaurant70_banner</item>
+        <item>?</item>
+        <item>?</item>
+        <item>?</item>
     </string-array>
     <string-array name="restaurant_array71">
         <item>71</item>
@@ -653,6 +933,10 @@
         <item>?</item>
         <item>서울 구로구 중앙로 6길 5-15</item>
         <item>미기재</item>
+        <item>restaurant71_banner</item>
+        <item>restaurant71_menu1</item>
+        <item>restaurant71_menu2</item>
+        <item>restaurant71_menu3</item>
     </string-array>
     <string-array name="restaurant_array72">
         <item>72</item>
@@ -662,6 +946,10 @@
         <item>0507-1416-9091</item>
         <item>서울 구로구 중앙로 32</item>
         <item>일요일 23시까지</item>
+        <item>restaurant72_banner</item>
+        <item>restaurant72_menu1</item>
+        <item>restaurant72_menu2</item>
+        <item>restaurant72_menu3</item>
     </string-array>
     <string-array name="restaurant_array73">
         <item>73</item>
@@ -671,6 +959,10 @@
         <item>02-2686-2049</item>
         <item>서울 구로구 중앙로 32</item>
         <item>미기재</item>
+        <item>restaurant73_banner</item>
+        <item>restaurant73_menu1</item>
+        <item>restaurant73_menu2</item>
+        <item>restaurant73_menu3</item>
     </string-array>
     <string-array name="restaurant_array74">
         <item>74</item>
@@ -680,6 +972,10 @@
         <item>02-2615-3855</item>
         <item>서울 구로구 경인로47길 25</item>
         <item>주말은 11:30부터 시작</item>
+        <item>restaurant74_banner</item>
+        <item>restaurant74_menu1</item>
+        <item>restaurant74_menu2</item>
+        <item>restaurant74_menu3</item>
     </string-array>
     <string-array name="restaurant_array75">
         <item>75</item>
@@ -689,6 +985,10 @@
         <item>0507-1408-8102</item>
         <item>서울 구로구 경인로47길 49</item>
         <item>매일 영업</item>
+        <item>restaurant75_banner</item>
+        <item>restaurant75_menu1</item>
+        <item>restaurant75_menu2</item>
+        <item>restaurant75_menu3</item>
     </string-array>
     <string-array name="restaurant_array76">
         <item>76</item>
@@ -698,14 +998,9 @@
         <item>02-2625-1129</item>
         <item>서울 구로구 중앙로 6길 17</item>
         <item>일요일 정기휴무</item>
-    </string-array>
-    <string-array name="restaurant_array77">
-        <item>77</item>
-        <item>제주몰빵</item>
-        <item>카페</item>
-        <item>08:00 - 20:00</item>
-        <item>070-5175-7214</item>
-        <item>서울 구로구 경인로 445 8호관 2층</item>
-        <item>주말은 10시부터 운영, 공연날은 다름</item>
+        <item>restaurant76_banner</item>
+        <item>restaurant76_menu1</item>
+        <item>restaurant76_menu2</item>
+        <item>restaurant76_menu3</item>
     </string-array>
 </resources>
