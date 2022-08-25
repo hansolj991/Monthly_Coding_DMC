@@ -52,7 +52,7 @@
                         android:id="@+id/restaurant_img_speed1"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/restaurant5_banner"
+                        android:src="@drawable/restaurant1_banner"
                         android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
@@ -76,7 +76,7 @@
                         android:id="@+id/restaurant_img_speed2"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/restaurant13_banner"
+                        android:src="@drawable/restaurant1_banner"
                         android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
@@ -100,7 +100,7 @@
                         android:id="@+id/restaurant_img_speed3"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/restaurant26_banner"
+                        android:src="@drawable/restaurant1_banner"
                         android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
@@ -144,7 +144,7 @@
                         android:id="@+id/restaurant_img_spicy1"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/restaurant33_banner"
+                        android:src="@drawable/restaurant1_banner"
                         android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
@@ -168,7 +168,7 @@
                         android:id="@+id/restaurant_img_spicy2"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/restaurant50_banner"
+                        android:src="@drawable/restaurant1_banner"
                         android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
@@ -192,7 +192,7 @@
                         android:id="@+id/restaurant_img_spicy3"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/restaurant34_banner"
+                        android:src="@drawable/restaurant1_banner"
                         android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
@@ -236,7 +236,7 @@
                         android:id="@+id/restaurant_img_recommend1"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/restaurant30_banner"
+                        android:src="@drawable/restaurant1_banner"
                         android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
@@ -260,7 +260,7 @@
                         android:id="@+id/restaurant_img_recommend2"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/restaurant3_banner"
+                        android:src="@drawable/restaurant1_banner"
                         android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
@@ -284,7 +284,7 @@
                         android:id="@+id/restaurant_img_recommend3"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/restaurant8_banner"
+                        android:src="@drawable/restaurant1_banner"
                         android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
@@ -328,7 +328,7 @@
                         android:id="@+id/restaurant_img_sweet1"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/restaurant17_banner"
+                        android:src="@drawable/restaurant1_banner"
                         android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
@@ -352,7 +352,7 @@
                         android:id="@+id/restaurant_img_sweet2"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/restaurant28_banner"
+                        android:src="@drawable/restaurant1_banner"
                         android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
@@ -376,7 +376,7 @@
                         android:id="@+id/restaurant_img_sweet3"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/restaurant4_banner"
+                        android:src="@drawable/restaurant1_banner"
                         android:background="@drawable/all_button_radius_10dp"
                         android:scaleType="centerCrop" />
 
