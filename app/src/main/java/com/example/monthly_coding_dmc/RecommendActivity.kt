@@ -133,11 +133,12 @@ class RecommendActivity : AppCompatActivity() {
         } // NumberPicker가 끝나고 결과 보여주는 애니메이션 집합
 
         btnRetry.setOnClickListener {
-            tvResult.setText(null)
+            //tvResult.setText(null)
             randomPickAnimation.end()
-            tvResult.visibility = View.INVISIBLE
+            //tvResult.visibility = View.INVISIBLE
             randomPickEndAnimation.cancel()
             randomPickEndAnimation.reverse()
+            onRandomPick()
         } // 다시뽑기를 눌렀을 때 다시 진행해야 하는데 진행이 안됨 이유는 애니메이션 진행결과 값이 누적됨
 
         btnRandomPick.setOnClickListener {
@@ -148,13 +149,6 @@ class RecommendActivity : AppCompatActivity() {
             }
         } // 랜덤추천을 눌렀을 시 애니메이션 진행
 
-
-
-
-
-
-
-
     }//randomPick()
 
 
@@ -162,7 +156,6 @@ class RecommendActivity : AppCompatActivity() {
 
 
     inner class CustomInterpolator : FastOutLinearInInterpolator() {
-
         override fun getInterpolation(input: Float): Float =
             (Math.cos((input + 1) * Math.PI) / 1.5f).toFloat() + 0.5f
 
