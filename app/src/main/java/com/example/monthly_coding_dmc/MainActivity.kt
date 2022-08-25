@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,18 +28,18 @@ class MainActivity : AppCompatActivity() {
     }
 
     //학교 점심 지도 액티비티로 이동
-    fun map(view: View) {
+    /*fun recommend(view: View) {
         view.setOnClickListener {
-            Toast.makeText(this, "해당 서비스는 준비중입니다!", Toast.LENGTH_LONG).show()
+            val intent = Intent(this, RestaurantRecommendActivity::class.java)
+            startActivity(intent)
         }
-    }
+    }*/
 
     //음식점 정보 액티비티로 이동
-    fun data(view: View) {
+    /*fun recommend(view: View) {
         view.setOnClickListener {
-            Toast.makeText(this, "해당 서비스는 준비중입니다!", Toast.LENGTH_LONG).show()
-            //val intent = Intent(this, RestaurantDataActivity::class.java)
-            //startActivity(intent)
+            val intent = Intent(this, RestaurantRecommendActivity::class.java)
+            startActivity(intent)
         }
-    }
+    }*/
 }
