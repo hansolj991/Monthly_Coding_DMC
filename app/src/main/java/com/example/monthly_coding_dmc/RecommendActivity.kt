@@ -26,11 +26,10 @@ class RecommendActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_recommand)
 
         setData()
         onRandomPick()
-
 
     }
 
@@ -137,10 +136,12 @@ class RecommendActivity : AppCompatActivity() {
             tvResult.setText(null)
             randomPickAnimation.end()
             tvResult.visibility = View.INVISIBLE
-
+            randomPickEndAnimation.cancel()
+            randomPickEndAnimation.reverse()
         } // 다시뽑기를 눌렀을 때 다시 진행해야 하는데 진행이 안됨 이유는 애니메이션 진행결과 값이 누적됨
 
         btnRandomPick.setOnClickListener {
+            randomPickAnimation.start()
             AnimatorSet().apply {
                 playSequentially(randomPickAnimation, randomPickEndAnimation)
                 start()
