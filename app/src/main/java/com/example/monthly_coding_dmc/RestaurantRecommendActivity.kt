@@ -42,7 +42,7 @@ class RestaurantRecommendActivity : AppCompatActivity() {
         val arrayRecommend3 = resources.getStringArray(R.array.restaurant_array8)
         binding.restaurantTextRecommend3.text = arrayRecommend3[1] //지지고
 
-        //달콤한맛
+        //디저트
         val arraySweet1 = resources.getStringArray(R.array.restaurant_array17)
         binding.restaurantTextSweet1.text = arraySweet1[1] //홈루이젠
         val arraySweet2 = resources.getStringArray(R.array.restaurant_array28)
