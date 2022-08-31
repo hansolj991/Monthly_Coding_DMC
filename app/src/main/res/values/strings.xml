@@ -14,6 +14,12 @@
         8. 가게 메뉴1 사진
         9. 가게 메뉴2 사진
         10. 가게 메뉴3 사진
+        11. 메뉴1 이름
+        12. 메뉴1 가격
+        13. 메뉴2 이름
+        14. 메뉴2 가격
+        15. 메뉴3 이름
+        16. 메뉴3 가격
     -->
     <!--
         ?는 알수없는 정보
@@ -31,6 +37,12 @@
         <item>restaurant1_menu1</item>
         <item>restaurant1_menu2</item>
         <item>restaurant1_menu3</item>
+        <item>1인 보쌈M</item>
+        <item>9,700</item>
+        <item>1인 삼겹살M</item>
+        <item>10,000</item>
+        <item>1인 대패M(시즌 메뉴)</item>
+        <item>8,900</item>
     </string-array>
     <string-array name="restaurant_array2">
         <item>2</item>
@@ -44,6 +56,12 @@
         <item>restaurant2_menu1</item>
         <item>?</item>
         <item>?</item>
+        <item>낙지김치죽</item>
+        <item>10,000</item>
+        <item>홍게품은죽</item>
+        <item>13,000</item>
+        <item>단호박죽</item>
+        <item>9,500</item>
     </string-array>
     <string-array name="restaurant_array3">
         <item>3</item>
@@ -57,6 +75,12 @@
         <item>restaurant3_menu1</item>
         <item>restaurant3_menu2</item>
         <item>restaurant3_menu3</item>
+        <item>사시미모리아와세(중)</item>
+        <item>40,000</item>
+        <item>오늘의 사시미</item>
+        <item>30,000</item>
+        <item>모듬초회</item>
+        <item>38,000</item>
     </string-array>
     <string-array name="restaurant_array4">
         <item>4</item>
@@ -70,6 +94,12 @@
         <item>?</item>
         <item>?</item>
         <item>?</item>
+        <item>아메리카노</item>
+        <item>2,000</item>
+        <item>카페라떼</item>
+        <item>3,000</item>
+        <item>카페모카</item>
+        <item>3,500</item>
     </string-array>
     <string-array name="restaurant_array5">
         <item>5</item>
@@ -80,9 +110,15 @@
         <item>서울 구로구 경인로 445 8호관 1층</item>
         <item>매일 영업</item>
         <item>restaurant5_banner</item>
-        <item>?</item>
-        <item>?</item>
-        <item>?</item>
+        <item>restaurant5_menu1</item>
+        <item>restaurant5_menu2</item>
+        <item>restaurant5_menu3</item>
+        <item>이탈리안 비엠티 (15cm 세트)</item>
+        <item>8,700</item>
+        <item>에그마요 (15cm 세트)</item>
+        <item>7,500</item>
+        <item>스테이크&amp;치즈 (15cm 세트)</item>
+        <item>10,000</item>
     </string-array>
     <string-array name="restaurant_array6">
         <item>6</item>
@@ -96,6 +132,12 @@
         <item>?</item>
         <item>?</item>
         <item>?</item>
+        <item>직화모듬(2인분)</item>
+        <item>26,000</item>
+        <item>야채곱창</item>
+        <item>11,000</item>
+        <item>직화곱창</item>
+        <item>11,000</item>
     </string-array>
     <string-array name="restaurant_array7">
         <item>7</item>
@@ -109,6 +151,12 @@
         <item>restaurant7_menu1</item>
         <item>restaurant7_menu2</item>
         <item>restaurant7_menu3</item>
+        <item>오리지날로스트</item>
+        <item>9,900</item>
+        <item>오리지널현미베이크</item>
+        <item>10,900</item>
+        <item>바베큐로스트</item>
+        <item>11,900</item>
     </string-array>
     <string-array name="restaurant_array8">
         <item>8</item>
@@ -122,6 +170,12 @@
         <item>restaurant8_menu1</item>
         <item>restaurant8_menu2</item>
         <item>restaurant8_menu3</item>
+        <item>불고기마요컵밥</item>
+        <item>4,500</item>
+        <item>지지고라이스</item>
+        <item>4,500</item>
+        <item>참치마요컵밥</item>
+        <item>4,500</item>
     </string-array>
     <string-array name="restaurant_array9">
         <item>9</item>
@@ -135,6 +189,12 @@
         <item>?</item>
         <item>?</item>
         <item>?</item>
+        <item>돼지고기단품</item>
+        <item>9,000</item>
+        <item>소고기단품</item>
+        <item>12,000</item>
+        <item>무한리필 B코스</item>
+        <item>14,500</item>
     </string-array>
     <string-array name="restaurant_array10">
         <item>10</item>
@@ -148,6 +208,12 @@
         <item>restaurant10_menu1</item>
         <item>restaurant10_menu2</item>
         <item>restaurant10_menu3</item>
+        <item>새우토스트</item>
+        <item>4,100</item>
+        <item>트리플소세지토스트</item>
+        <item>4,500</item>
+        <item>허니갈릭햄치즈</item>
+        <item>3,200</item>
     </string-array>
     <string-array name="restaurant_array11">
         <item>11</item>
@@ -161,6 +227,12 @@
         <item>restaurant11_menu1</item>
         <item>restaurant11_menu2</item>
         <item>restaurant11_menu3</item>
+        <item>한우트러플머쉬룸</item>
+        <item>9,300 ~ 11,000</item>
+        <item>한우불고기버거</item>
+        <item>8,000 ~ 9,700</item>
+        <item>핫크리스피버거</item>
+        <item>5,600 ~ 7,400</item>
     </string-array>
     <string-array name="restaurant_array12">
         <item>12</item>
@@ -174,6 +246,12 @@
         <item>?</item>
         <item>?</item>
         <item>?</item>
+        <item>라이브삼겹 150g</item>
+        <item>5,900</item>
+        <item>숙성삼겹 180g</item>
+        <item>6,500</item>
+        <item>허브삼겹 150g</item>
+        <item>7,500</item>
     </string-array>
     <string-array name="restaurant_array13">
         <item>13</item>
@@ -187,6 +265,12 @@
         <item>restaurant13_menu1</item>
         <item>restaurant13_menu2</item>
         <item>restaurant13_menu3</item>
+        <item>갈릭바베큐치킨버거</item>
+        <item>7,900</item>
+        <item>허니버터뿌치싸이순살</item>
+        <item>12,900</item>
+        <item>어메이징매콤마요버거</item>
+        <item>7,900</item>
     </string-array>
     <string-array name="restaurant_array14">
         <item>14</item>
@@ -200,19 +284,31 @@
         <item>?</item>
         <item>?</item>
         <item>?</item>
+        <item>삼겹살무한리필학생</item>
+        <item>13,000</item>
+        <item>숙성삼겹살</item>
+        <item>6,900</item>
+        <item>대패삼겹살</item>
+        <item>6,900</item>
     </string-array>
     <string-array name="restaurant_array15">
         <item>15</item>
-        <item>토마토김밥</item>
-        <item>한식</item>
-        <item>06:00 - 21:00</item>
-        <item>02-3666-0304</item>
-        <item>서울 구로구 경인로47길 40</item>
-        <item>월요일 휴무</item>
+        <item>난연스시</item>
+        <item>일식</item>
+        <item>11:30 - 22:00</item>
+        <item>02-2625-1129</item>
+        <item>서울 구로구 중앙로 6길 17</item>
+        <item>일요일 정기휴무</item>
         <item>restaurant15_banner</item>
-        <item>?</item>
-        <item>?</item>
-        <item>?</item>
+        <item>restaurant15_menu1</item>
+        <item>restaurant15_menu2</item>
+        <item>restaurant15_menu3</item>
+        <item>런치세트(4pcs)</item>
+        <item>9,000</item>
+        <item>스시세트(8pcs)</item>
+        <item>14,000</item>
+        <item>모듬회덮밥</item>
+        <item>9,000</item>
     </string-array>
     <string-array name="restaurant_array16">
         <item>16</item>
@@ -226,6 +322,12 @@
         <item>restaurant16_menu1</item>
         <item>restaurant16_menu2</item>
         <item>restaurant16_menu3</item>
+        <item>순대국</item>
+        <item>변동</item>
+        <item>소뼈맑은해장국</item>
+        <item>변동</item>
+        <item>국밥도시락</item>
+        <item>변동</item>
     </string-array>
     <string-array name="restaurant_array17">
         <item>17</item>
@@ -239,6 +341,12 @@
         <item>restaurant17_menu1</item>
         <item>restaurant17_menu1</item>
         <item>restaurant17_menu1</item>
+        <item>장봉뵈르샌드위치</item>
+        <item>5,500</item>
+        <item>쿠키앤크림샌드위치</item>
+        <item>2,600</item>
+        <item>햄치즈샌드위치</item>
+        <item>2,400</item>
     </string-array>
     <string-array name="restaurant_array18">
         <item>18</item>
@@ -252,6 +360,12 @@
         <item>restaurant18_menu1</item>
         <item>restaurant18_menu2</item>
         <item>restaurant18_menu3</item>
+        <item>수제생등심돈가스</item>
+        <item>7,400</item>
+        <item>치즈돈가스</item>
+        <item>9,400</item>
+        <item>카레돈가스</item>
+        <item>8,900</item>
     </string-array>
     <string-array name="restaurant_array19">
         <item>19</item>
@@ -265,6 +379,12 @@
         <item>?</item>
         <item>restaurant19_menu2</item>
         <item>?</item>
+        <item>매콤돈까스</item>
+        <item>8,000</item>
+        <item>고척돈까스</item>
+        <item>8,000</item>
+        <item>카레돈까스</item>
+        <item>8,000</item>
     </string-array>
     <string-array name="restaurant_array20">
         <item>20</item>
@@ -278,6 +398,12 @@
         <item>restaurant20_menu1</item>
         <item>?</item>
         <item>restaurant20_menu3</item>
+        <item>김치찌개 1인분</item>
+        <item>9,000</item>
+        <item>달걀말이</item>
+        <item>7,000</item>
+        <item>통돼지두루치기</item>
+        <item>10,000</item>
     </string-array>
     <string-array name="restaurant_array21">
         <item>21</item>
@@ -291,6 +417,12 @@
         <item>restaurant21_menu1</item>
         <item>restaurant21_menu2</item>
         <item>restaurant21_menu3</item>
+        <item>아부찌부대찌개</item>
+        <item>9,900</item>
+        <item>특스팸부대찌개</item>
+        <item>13,900</item>
+        <item>우삼겹부대찌개</item>
+        <item>14,900</item>
     </string-array>
     <string-array name="restaurant_array22">
         <item>22</item>
@@ -304,6 +436,12 @@
         <item>restaurant22_menu1</item>
         <item>restaurant22_menu2</item>
         <item>restaurant22_menu3</item>
+        <item>돼지국밥</item>
+        <item>8,500</item>
+        <item>순대국</item>
+        <item>9,000</item>
+        <item>돼지국밥국수</item>
+        <item>8,500</item>
     </string-array>
     <string-array name="restaurant_array23">
         <item>23</item>
@@ -317,6 +455,12 @@
         <item>restaurant23_menu1</item>
         <item>restaurant23_menu2</item>
         <item>restaurant23_menu3</item>
+        <item>치즈피자</item>
+        <item>7,900</item>
+        <item>페퍼로니피자</item>
+        <item>8,900</item>
+        <item>콤비네이션피자</item>
+        <item>9,900</item>
     </string-array>
     <string-array name="restaurant_array24">
         <item>24</item>
@@ -330,6 +474,12 @@
         <item>restaurant24_menu1</item>
         <item>restaurant24_menu2</item>
         <item>restaurant24_menu3</item>
+        <item>홍춘천닭갈비</item>
+        <item>8,900</item>
+        <item>치즈닭갈비</item>
+        <item>12,000</item>
+        <item>김치치즈닭갈비</item>
+        <item>13,000</item>
     </string-array>
     <string-array name="restaurant_array25">
         <item>25</item>
@@ -340,9 +490,15 @@
         <item>서울 구로구 경인로 445 8호관 2층</item>
         <item>주말은 10시부터 운영, 공연날은 다름</item>
         <item>restaurant25_banner</item>
-        <item>restaurant25_menu1</item>
-        <item>restaurant25_menu2</item>
-        <item>restaurant25_menu3</item>
+        <item>?</item>
+        <item>?</item>
+        <item>?</item>
+        <item>에스프레소</item>
+        <item>1,800</item>
+        <item>카페라떼</item>
+        <item>2,800</item>
+        <item>카푸치노</item>
+        <item>2,800</item>
     </string-array>
     <string-array name="restaurant_array26">
         <item>26</item>
@@ -356,6 +512,12 @@
         <item>restaurant26_menu1</item>
         <item>restaurant26_menu2</item>
         <item>restaurant26_menu3</item>
+        <item>동백</item>
+        <item>5,800</item>
+        <item>진달래</item>
+        <item>7,500</item>
+        <item>돈까스도련님</item>
+        <item>4,500</item>
     </string-array>
     <string-array name="restaurant_array27">
         <item>27</item>
@@ -369,6 +531,12 @@
         <item>restaurant27_menu1</item>
         <item>restaurant27_menu2</item>
         <item>restaurant27_menu3</item>
+        <item>내맘대로떡닭세트</item>
+        <item>25,000</item>
+        <item>가래떡닭세트</item>
+        <item>22,000</item>
+        <item>로제가래떡닭세트</item>
+        <item>24,000</item>
     </string-array>
     <string-array name="restaurant_array28">
         <item>28</item>
@@ -382,19 +550,31 @@
         <item>?</item>
         <item>?</item>
         <item>?</item>
+        <item>오리지널(7알)</item>
+        <item>4,000</item>
+        <item>매운맛(7알)</item>
+        <item>4,000</item>
+        <item>치즈맛(7알)</item>
+        <item>4,500</item>
     </string-array>
     <string-array name="restaurant_array29">
         <item>29</item>
-        <item>일품 마라탕</item>
-        <item>중식</item>
-        <item>11:00 - 24:00</item>
-        <item>02-2135-9267</item>
-        <item>서울 구로구 경인로208 1층</item>
+        <item>청년다방</item>
+        <item>디저트</item>
+        <item>11:00 - 22:00</item>
+        <item>02-2617-8807</item>
+        <item>서울 구로구 경인로47길 14</item>
         <item>매일 영업</item>
         <item>restaurant29_banner</item>
-        <item>?</item>
-        <item>?</item>
-        <item>?</item>
+        <item>restaurant29_menu1</item>
+        <item>restaurant29_menu2</item>
+        <item>restaurant29_menu3</item>
+        <item>(중)피자로니떡볶이</item>
+        <item>16,500</item>
+        <item>(중)옛다방떡볶이</item>
+        <item>13,000</item>
+        <item>(중)차돌떡볶이</item>
+        <item>16,500</item>
     </string-array>
     <string-array name="restaurant_array30">
         <item>30</item>
@@ -408,6 +588,12 @@
         <item>?</item>
         <item>?</item>
         <item>?</item>
+        <item>치즈떡볶이</item>
+        <item>5,000</item>
+        <item>고기군만두</item>
+        <item>3,000</item>
+        <item>튀김오뎅</item>
+        <item>2,000</item>
     </string-array>
     <string-array name="restaurant_array31">
         <item>31</item>
@@ -421,6 +607,12 @@
         <item>restaurant31_menu1</item>
         <item>restaurant31_menu2</item>
         <item>restaurant31_menu3</item>
+        <item>짬뽕</item>
+        <item>6,000</item>
+        <item>짜장면</item>
+        <item>5,000</item>
+        <item>탕수육(소)</item>
+        <item>13,000</item>
     </string-array>
     <string-array name="restaurant_array32">
         <item>32</item>
@@ -434,6 +626,12 @@
         <item>?</item>
         <item>?</item>
         <item>?</item>
+        <item>치즈닭갈비 철판</item>
+        <item>12,000</item>
+        <item>쭈꾸미삼겹 철판</item>
+        <item>13,000</item>
+        <item>쭈꾸미 철판</item>
+        <item>12,000</item>
     </string-array>
     <string-array name="restaurant_array33">
         <item>33</item>
@@ -447,6 +645,12 @@
         <item>restaurant33_menu1</item>
         <item>restaurant33_menu2</item>
         <item>restaurant33_menu3</item>
+        <item>죠스떡볶이</item>
+        <item>3,500</item>
+        <item>치즈떡볶이</item>
+        <item>5,000</item>
+        <item>수제튀김</item>
+        <item>4,000</item>
     </string-array>
     <string-array name="restaurant_array34">
         <item>34</item>
@@ -460,6 +664,12 @@
         <item>restaurant34_menu1</item>
         <item>restaurant34_menu2</item>
         <item>restaurant34_menu3</item>
+        <item>엽기떡볶이</item>
+        <item>14,000</item>
+        <item>엽기반반</item>
+        <item>14,000</item>
+        <item>엽기오뎅</item>
+        <item>14,000</item>
     </string-array>
     <string-array name="restaurant_array35">
         <item>35</item>
@@ -473,15 +683,31 @@
         <item>?</item>
         <item>?</item>
         <item>?</item>
+        <item>김밥</item>
+        <item>2,000</item>
+        <item>신라면</item>
+        <item>2,500</item>
+        <item>라볶이</item>
+        <item>3,000</item>
     </string-array>
     <string-array name="restaurant_array36">
         <item>36</item>
-        <item>뒤뜰</item>
-        <item>한식</item>
-        <item>11:30 - 22:00</item>
-        <item>0507-1306-1973</item>
-        <item>서울 구로구 안양천로539길 6</item>
-        <item>설날 / 추석 당일 휴무</item>
+        <item>뜸들이다</item>
+        <item>일식</item>
+        <item>10:30 - 20:30</item>
+        <item>0507-1408-8102</item>
+        <item>서울 구로구 경인로47길 49</item>
+        <item>매일 영업</item>
+        <item>restaurant36_banner</item>
+        <item>restaurant36_menu1</item>
+        <item>restaurant36_menu2</item>
+        <item>restaurant36_menu3</item>
+        <item>도란도란</item>
+        <item>7,400</item>
+        <item>삼겹살 카레덮밥</item>
+        <item>6,900</item>
+        <item>어깨살 간장덮밥</item>
+        <item>6,900</item>
     </string-array>
     <string-array name="restaurant_array37">
         <item>37</item>
@@ -495,6 +721,12 @@
         <item>restaurant37_menu1</item>
         <item>restaurant37_menu2</item>
         <item>restaurant37_menu3</item>
+        <item>알싸한 마늘치킨(L(순살))</item>
+        <item>21,000</item>
+        <item>엄청 큰 후라이드 치킨</item>
+        <item>17,000</item>
+        <item>순살 3종세트</item>
+        <item>18,000</item>
     </string-array>
     <string-array name="restaurant_array38">
         <item>38</item>
@@ -508,6 +740,12 @@
         <item>?</item>
         <item>?</item>
         <item>?</item>
+        <item>아메리카노</item>
+        <item>1,500</item>
+        <item>카페라떼</item>
+        <item>2,700</item>
+        <item>카푸치노</item>
+        <item>2,700</item>
     </string-array>
     <string-array name="restaurant_array39">
         <item>39</item>
@@ -521,6 +759,12 @@
         <item>restaurant39_menu1</item>
         <item>restaurant39_menu2</item>
         <item>restaurant39_menu3</item>
+        <item>아메리카노</item>
+        <item>4,500</item>
+        <item>바닐라라떼/카페모카</item>
+        <item>5,500</item>
+        <item>카라멜마끼아또</item>
+        <item>5,900</item>
     </string-array>
     <string-array name="restaurant_array40">
         <item>40</item>
@@ -534,6 +778,12 @@
         <item>restaurant40_menu1</item>
         <item>restaurant40_menu2</item>
         <item>restaurant40_menu3</item>
+        <item>오리지날 후라이드</item>
+        <item>18,000</item>
+        <item>콤보(통날개반 + 통다리반)</item>
+        <item>20,000</item>
+        <item>통다리</item>
+        <item>20,000</item>
     </string-array>
     <string-array name="restaurant_array41">
         <item>41</item>
@@ -547,6 +797,12 @@
         <item>?</item>
         <item>?</item>
         <item>?</item>
+        <item>후라이드치킨</item>
+        <item>12,000</item>
+        <item>양념치킨</item>
+        <item>13,000</item>
+        <item>반반치킨</item>
+        <item>13,000</item>
     </string-array>
     <string-array name="restaurant_array42">
         <item>42</item>
@@ -560,6 +816,12 @@
         <item>restaurant42_menu1</item>
         <item>restaurant42_menu1</item>
         <item>restaurant42_menu1</item>
+        <item>1인분 세트(피자한조각+음료+사이드)</item>
+        <item>11,900</item>
+        <item>태니스 시그니처 피자(L(더블치즈+페퍼로니))</item>
+        <item>25,900</item>
+        <item>더블치즈피자(L)</item>
+        <item>24,900</item>
     </string-array>
     <string-array name="restaurant_array43">
         <item>43</item>
@@ -573,6 +835,12 @@
         <item>?</item>
         <item>?</item>
         <item>?</item>
+        <item>주먹고기</item>
+        <item>11,000</item>
+        <item>차돌박이</item>
+        <item>18,000</item>
+        <item>뽈따구살</item>
+        <item>11,000</item>
     </string-array>
     <string-array name="restaurant_array44">
         <item>44</item>
@@ -586,6 +854,12 @@
         <item>restaurant44_menu1</item>
         <item>restaurant44_menu2</item>
         <item>restaurant44_menu3</item>
+        <item>크로플</item>
+        <item>7,000</item>
+        <item>아메리카노</item>
+        <item>3,500</item>
+        <item>헤비 플래터+음료1</item>
+        <item>19,900</item>
     </string-array>
     <string-array name="restaurant_array45">
         <item>45</item>
@@ -599,6 +873,12 @@
         <item>restaurant45_menu1</item>
         <item>?</item>
         <item>?</item>
+        <item>멸치칼국수</item>
+        <item>6,000</item>
+        <item>닭칼국수</item>
+        <item>8,000</item>
+        <item>바지락칼국수</item>
+        <item>8,000</item>
     </string-array>
     <string-array name="restaurant_array46">
         <item>46</item>
@@ -612,19 +892,31 @@
         <item>restaurant46_menu1</item>
         <item>restaurant46_menu2</item>
         <item>restaurant46_menu3</item>
+        <item>사케동(연어 8p 연어덮밥)</item>
+        <item>13,000</item>
+        <item>초새우초밥</item>
+        <item>16,000</item>
+        <item>활어초밥(광어 12p)</item>
+        <item>21,000</item>
     </string-array>
     <string-array name="restaurant_array47">
         <item>47</item>
-        <item>꼭지식당</item>
-        <item>한식</item>
-        <item>?</item>
-        <item>02-2066-3239</item>
-        <item>서울 구로구 경인로47길 58</item>
-        <item>미기재</item>
+        <item>와플대학</item>
+        <item>디저트</item>
+        <item>12:30 - 22:30</item>
+        <item>02-2615-3855</item>
+        <item>서울 구로구 경인로47길 25</item>
+        <item>주말은 11:30부터 시작</item>
         <item>restaurant47_banner</item>
-        <item>?</item>
-        <item>?</item>
-        <item>?</item>
+        <item>restaurant47_menu1</item>
+        <item>restaurant47_menu2</item>
+        <item>restaurant47_menu3</item>
+        <item>크림와플</item>
+        <item>1,900</item>
+        <item>애플시나몬와플</item>
+        <item>2,500</item>
+        <item>오레오누텔라와플</item>
+        <item>3,300</item>
     </string-array>
     <string-array name="restaurant_array48">
         <item>48</item>
@@ -638,6 +930,12 @@
         <item>restaurant48_menu1</item>
         <item>restaurant48_menu2</item>
         <item>restaurant48_menu3</item>
+        <item>뿌리고치킨(매콤달콤)</item>
+        <item>19,000</item>
+        <item>땡초치킨</item>
+        <item>19,000</item>
+        <item>양념치킨</item>
+        <item>18,000</item>
     </string-array>
     <string-array name="restaurant_array49">
         <item>49</item>
@@ -651,6 +949,12 @@
         <item>?</item>
         <item>?</item>
         <item>?</item>
+        <item>왕고기만두(왕김치만두) 5개</item>
+        <item>4,000</item>
+        <item>교자고기만두(교자김치만두) 8개</item>
+        <item>4,000</item>
+        <item>새우만두 6개</item>
+        <item>5,000</item>
     </string-array>
     <string-array name="restaurant_array50">
         <item>50</item>
@@ -664,6 +968,12 @@
         <item>restaurant50_menu1</item>
         <item>restaurant50_menu2</item>
         <item>restaurant50_menu3</item>
+        <item>마라탕(기본)</item>
+        <item>10,000</item>
+        <item>마라샹궈(기본)</item>
+        <item>20,000</item>
+        <item>꿔바로우</item>
+        <item>15,000</item>
     </string-array>
     <string-array name="restaurant_array51">
         <item>51</item>
@@ -677,6 +987,12 @@
         <item>restaurant51_menu1</item>
         <item>restaurant51_menu2</item>
         <item>?</item>
+        <item>토마토루꼴라 샐러드</item>
+        <item>9,900</item>
+        <item>라자냐</item>
+        <item>15,900</item>
+        <item>스란까르보나라</item>
+        <item>11,900</item>
     </string-array>
     <string-array name="restaurant_array52">
         <item>52</item>
@@ -690,6 +1006,12 @@
         <item>restaurant52_menu1</item>
         <item>?</item>
         <item>restaurant52_menu3</item>
+        <item>해물순두부</item>
+        <item>8,000</item>
+        <item>두부김치</item>
+        <item>15,000</item>
+        <item>두부오삼</item>
+        <item>18,000</item>
     </string-array>
     <string-array name="restaurant_array53">
         <item>53</item>
@@ -703,6 +1025,12 @@
         <item>restaurant53_menu1</item>
         <item>restaurant53_menu2</item>
         <item>restaurant53_menu3</item>
+        <item>치퐁당 후라이드</item>
+        <item>20,000</item>
+        <item>골드킹 콤보</item>
+        <item>20,000</item>
+        <item>뿌링클 콤보</item>
+        <item>20,000</item>
     </string-array>
     <string-array name="restaurant_array54">
         <item>54</item>
@@ -716,6 +1044,12 @@
         <item>restaurant54_menu1</item>
         <item>restaurant54_menu2</item>
         <item>restaurant54_menu3</item>
+        <item>돼지국밥</item>
+        <item>7,000</item>
+        <item>소머리국밥</item>
+        <item>8,000</item>
+        <item>소머리수육(대)</item>
+        <item>40,000</item>
     </string-array>
     <string-array name="restaurant_array55">
         <item>55</item>
@@ -729,6 +1063,12 @@
         <item>restaurant55_menu1</item>
         <item>restaurant55_menu2</item>
         <item>restaurant55_menu3</item>
+        <item>삼계탕</item>
+        <item>13,000</item>
+        <item>동태찌개</item>
+        <item>7,000</item>
+        <item>김치찌개</item>
+        <item>7,000</item>
     </string-array>
     <string-array name="restaurant_array56">
         <item>56</item>
@@ -742,6 +1082,12 @@
         <item>restaurant56_menu1</item>
         <item>restaurant56_menu2</item>
         <item>restaurant56_menu3</item>
+        <item>닭한마리</item>
+        <item>25,000</item>
+        <item>토종옻닭</item>
+        <item>35,000</item>
+        <item>옻오리</item>
+        <item>40,000</item>
     </string-array>
     <string-array name="restaurant_array57">
         <item>57</item>
@@ -755,6 +1101,12 @@
         <item>restaurant57_menu1</item>
         <item>restaurant57_menu2</item>
         <item>?</item>
+        <item>물냉면</item>
+        <item>6,000</item>
+        <item>비빔냉면</item>
+        <item>6,000</item>
+        <item>곱배기</item>
+        <item>7,000</item>
     </string-array>
     <string-array name="restaurant_array58">
         <item>58</item>
@@ -768,6 +1120,12 @@
         <item>restaurant58_menu1</item>
         <item>restaurant58_menu2</item>
         <item>restaurant58_menu3</item>
+        <item>가브리살(170g)</item>
+        <item>17,000</item>
+        <item>항정살(140g)</item>
+        <item>17,000</item>
+        <item>생갈비(190g)</item>
+        <item>15,000</item>
     </string-array>
     <string-array name="restaurant_array59">
         <item>59</item>
@@ -781,6 +1139,12 @@
         <item>restaurant59_menu1</item>
         <item>restaurant59_menu2</item>
         <item>restaurant59_menu3</item>
+        <item>왕족발(포장)</item>
+        <item>32,000</item>
+        <item>미니족발(포장)</item>
+        <item>11,000</item>
+        <item>머리고기(포장)</item>
+        <item>14,000</item>
     </string-array>
     <string-array name="restaurant_array60">
         <item>60</item>
@@ -794,6 +1158,12 @@
         <item>restaurant60_menu1</item>
         <item>restaurant60_menu2</item>
         <item>restaurant60_menu3</item>
+        <item>순대곱창</item>
+        <item>10,000</item>
+        <item>대구막창</item>
+        <item>10,000</item>
+        <item>야채곱창</item>
+        <item>9,000</item>
     </string-array>
     <string-array name="restaurant_array61">
         <item>61</item>
@@ -807,6 +1177,12 @@
         <item>restaurant61_menu1</item>
         <item>restaurant61_menu2</item>
         <item>restaurant61_menu3</item>
+        <item>짜장면</item>
+        <item>6,000</item>
+        <item>차돌짬뽕</item>
+        <item>9,500</item>
+        <item>차돌짬뽕밥</item>
+        <item>10,000</item>
     </string-array>
     <string-array name="restaurant_array62">
         <item>62</item>
@@ -820,6 +1196,12 @@
         <item>restaurant62_menu1</item>
         <item>restaurant62_menu2</item>
         <item>restaurant62_menu3</item>
+        <item>초코오레오쉐이크</item>
+        <item>4,300</item>
+        <item>딸기요거트</item>
+        <item>4,200</item>
+        <item>초코버블티</item>
+        <item>3,800</item>
     </string-array>
     <string-array name="restaurant_array63">
         <item>63</item>
@@ -833,6 +1215,12 @@
         <item>restaurant63_menu1</item>
         <item>restaurant63_menu2</item>
         <item>restaurant63_menu3</item>
+        <item>경성꽈베기 3개</item>
+        <item>2,000</item>
+        <item>팥도너츠 1개</item>
+        <item>2,000</item>
+        <item>치즈볼 1개</item>
+        <item>2,000</item>
     </string-array>
     <string-array name="restaurant_array64">
         <item>64</item>
@@ -846,6 +1234,12 @@
         <item>restaurant64_menu1</item>
         <item>restaurant64_menu2</item>
         <item>restaurant64_menu3</item>
+        <item>허니자몽블랙티</item>
+        <item>3,800</item>
+        <item>생초콜릿라떼</item>
+        <item>4,500</item>
+        <item>캔디소다 밀크쉐이크</item>
+        <item>3,900</item>
     </string-array>
     <string-array name="restaurant_array65">
         <item>65</item>
@@ -859,6 +1253,12 @@
         <item>restaurant65_menu1</item>
         <item>restaurant65_menu2</item>
         <item>restaurant65_menu3</item>
+        <item>제육덮밥</item>
+        <item>6,000</item>
+        <item>콩나물 국밥</item>
+        <item>5,000</item>
+        <item>알탕</item>
+        <item>7,000</item>
     </string-array>
     <string-array name="restaurant_array66">
         <item>66</item>
@@ -869,9 +1269,15 @@
         <item>서울 구로구 중앙로 6길 50</item>
         <item>주말은 7:50부터 시작</item>
         <item>restaurant66_banner</item>
-        <item>?</item>
-        <item>?</item>
-        <item>?</item>
+        <item>restaurant66_menu1</item>
+        <item>restaurant66_menu2</item>
+        <item>restaurant66_menu3</item>
+        <item>더치아메리카노</item>
+        <item>2,500</item>
+        <item>콜드브루</item>
+        <item>2,500</item>
+        <item>딸기라떼</item>
+        <item>4,300</item>
     </string-array>
     <string-array name="restaurant_array67">
         <item>67</item>
@@ -885,6 +1291,12 @@
         <item>restaurant67_menu1</item>
         <item>restaurant67_menu2</item>
         <item>restaurant67_menu3</item>
+        <item>수제리코타치즈</item>
+        <item>10,900</item>
+        <item>303 브런치 플래터</item>
+        <item>12,900</item>
+        <item>클래식 프렌치토스트</item>
+        <item>12,900</item>
     </string-array>
     <string-array name="restaurant_array68">
         <item>68</item>
@@ -898,6 +1310,12 @@
         <item>restaurant68_menu1</item>
         <item>restaurant68_menu2</item>
         <item>restaurant68_menu3</item>
+        <item>짜장면</item>
+        <item>5,500</item>
+        <item>삼선고추짬뽕</item>
+        <item>9,000</item>
+        <item>볶음밥</item>
+        <item>7,000</item>
     </string-array>
     <string-array name="restaurant_array69">
         <item>69</item>
@@ -911,6 +1329,12 @@
         <item>restaurant69_menu1</item>
         <item>restaurant69_menu2</item>
         <item>restaurant69_menu3</item>
+        <item>수제돈갈비(1kg)</item>
+        <item>56,000</item>
+        <item>수제돈갈비(250g)</item>
+        <item>15,000</item>
+        <item>소양념갈비(1대300g)</item>
+        <item>28,000</item>
     </string-array>
     <string-array name="restaurant_array70">
         <item>70</item>
@@ -924,6 +1348,12 @@
         <item>?</item>
         <item>?</item>
         <item>?</item>
+        <item>김치찌개</item>
+        <item>6,000</item>
+        <item>순두부찌개</item>
+        <item>6,000</item>
+        <item>된장찌개</item>
+        <item>6,000</item>
     </string-array>
     <string-array name="restaurant_array71">
         <item>71</item>
@@ -937,6 +1367,12 @@
         <item>restaurant71_menu1</item>
         <item>restaurant71_menu2</item>
         <item>restaurant71_menu3</item>
+        <item>생고기김치찌개</item>
+        <item>8,000</item>
+        <item>참치짜글이</item>
+        <item>8,000</item>
+        <item>꽁치짜글이</item>
+        <item>8,000</item>
     </string-array>
     <string-array name="restaurant_array72">
         <item>72</item>
@@ -950,6 +1386,12 @@
         <item>restaurant72_menu1</item>
         <item>restaurant72_menu2</item>
         <item>restaurant72_menu3</item>
+        <item>양꼬치</item>
+        <item>13,000</item>
+        <item>소꼬치</item>
+        <item>15,000</item>
+        <item>양갈비</item>
+        <item>15,000</item>
     </string-array>
     <string-array name="restaurant_array73">
         <item>73</item>
@@ -963,44 +1405,11 @@
         <item>restaurant73_menu1</item>
         <item>restaurant73_menu2</item>
         <item>restaurant73_menu3</item>
-    </string-array>
-    <string-array name="restaurant_array74">
-        <item>74</item>
-        <item>와플대학</item>
-        <item>디저트</item>
-        <item>12:30 - 22:30</item>
-        <item>02-2615-3855</item>
-        <item>서울 구로구 경인로47길 25</item>
-        <item>주말은 11:30부터 시작</item>
-        <item>restaurant74_banner</item>
-        <item>restaurant74_menu1</item>
-        <item>restaurant74_menu2</item>
-        <item>restaurant74_menu3</item>
-    </string-array>
-    <string-array name="restaurant_array75">
-        <item>75</item>
-        <item>뜸들이다</item>
-        <item>일식</item>
-        <item>10:30 - 20:30</item>
-        <item>0507-1408-8102</item>
-        <item>서울 구로구 경인로47길 49</item>
-        <item>매일 영업</item>
-        <item>restaurant75_banner</item>
-        <item>restaurant75_menu1</item>
-        <item>restaurant75_menu2</item>
-        <item>restaurant75_menu3</item>
-    </string-array>
-    <string-array name="restaurant_array76">
-        <item>76</item>
-        <item>난연스시</item>
-        <item>일식</item>
-        <item>11:30 - 22:00</item>
-        <item>02-2625-1129</item>
-        <item>서울 구로구 중앙로 6길 17</item>
-        <item>일요일 정기휴무</item>
-        <item>restaurant76_banner</item>
-        <item>restaurant76_menu1</item>
-        <item>restaurant76_menu2</item>
-        <item>restaurant76_menu3</item>
+        <item>생삼겹살</item>
+        <item>13,000</item>
+        <item>생오겹살</item>
+        <item>13,000</item>
+        <item>생목살</item>
+        <item>13,000</item>
     </string-array>
 </resources>
