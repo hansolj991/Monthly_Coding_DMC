@@ -24,6 +24,7 @@
         <!--색상변경-->
         <item name="android:textColor">@color/black</item>
         <!--선택창 색깔 selectionDividerHeight-->
+        <item name="backgroundColor">@color/white</item>
 
 
     </style>
