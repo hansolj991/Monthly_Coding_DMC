@@ -1,6 +1,7 @@
 package com.example.monthly_coding_dmc
 
 import android.animation.*
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.util.Log
@@ -155,6 +156,14 @@ class RecommendActivity : AppCompatActivity() {
                 start()
             }
         } // 랜덤추천을 눌렀을 시 애니메이션 진행
+
+        btnDetail.setOnClickListener {
+            val intent = Intent(this, RestaurantDetailActivity::class.java)
+            intent.apply {
+                this.putExtra("result", randomPickAnimation.animatedValue.toString())
+            }
+            startActivity(intent)
+        }
 
     }//randomPick()
 
