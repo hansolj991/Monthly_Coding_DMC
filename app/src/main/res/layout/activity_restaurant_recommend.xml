@@ -397,6 +397,7 @@
                 android:layout_height="60dp"
                 android:scaleType="centerCrop"
                 android:background="#ADD8FF"
+                android:fontFamily="@font/pretendard_medium"
                 android:text="Monthly_Coding"
                 android:textStyle="bold"
                 android:textSize="42dp"

@@ -70,8 +70,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="24dp"
+                android:fontFamily="@font/pretendard_semibold"
                 android:text="매장정보"
-                android:textSize="16dp"
+                android:textSize="20dp"
                 android:textStyle="bold"
                 android:textColor="@color/black"/>
 
@@ -80,8 +81,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="11dp"
+                android:fontFamily="@font/pretendard_medium"
                 android:text="영업정보"
-                android:textSize="14dp"
+                android:textSize="16dp"
                 android:textStyle="bold"
                 android:textColor="@color/black"/>
 
@@ -90,6 +92,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="6dp"
+                android:fontFamily="@font/pretendard_medium"
                 android:text="운영시간" />
 
             <TextView
@@ -97,6 +100,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="6dp"
+                android:fontFamily="@font/pretendard_medium"
                 android:text="전화번호" />
 
             <TextView
@@ -104,8 +108,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="18dp"
+                android:fontFamily="@font/pretendard_medium"
                 android:text="메뉴정보"
-                android:textSize="14dp"
+                android:textSize="16dp"
                 android:textStyle="bold"
                 android:textColor="@color/black"/>
 
@@ -131,6 +136,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
                         android:orientation="horizontal">
 
                         <TextView
@@ -138,6 +144,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:fontFamily="@font/pretendard_medium"
                             android:text="메뉴 : "
                             android:textStyle="bold"
                             android:textSize="14sp"
@@ -149,6 +156,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:fontFamily="@font/pretendard_medium"
                             android:text=""
                             android:textStyle="bold"
                             android:textSize="14sp"
@@ -166,6 +174,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:fontFamily="@font/pretendard_medium"
                             android:text="가격 : "
                             android:textStyle="bold"
                             android:textSize="14sp"
@@ -177,6 +186,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:fontFamily="@font/pretendard_medium"
                             android:text=""
                             android:textStyle="bold"
                             android:textSize="14sp"
@@ -202,6 +212,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
                         android:orientation="horizontal">
 
                         <TextView
@@ -209,6 +220,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:fontFamily="@font/pretendard_medium"
                             android:text="메뉴 : "
                             android:textStyle="bold"
                             android:textSize="14sp"
@@ -220,6 +232,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:fontFamily="@font/pretendard_medium"
                             android:text=""
                             android:textStyle="bold"
                             android:textSize="14sp"
@@ -237,6 +250,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:fontFamily="@font/pretendard_medium"
                             android:text="가격 : "
                             android:textStyle="bold"
                             android:textSize="14sp"
@@ -248,6 +262,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:fontFamily="@font/pretendard_medium"
                             android:text=""
                             android:textStyle="bold"
                             android:textSize="14sp"
@@ -273,6 +288,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
                         android:orientation="horizontal">
 
                         <TextView
@@ -280,6 +296,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:fontFamily="@font/pretendard_medium"
                             android:text="메뉴 : "
                             android:textStyle="bold"
                             android:textSize="14sp"
@@ -291,6 +308,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:fontFamily="@font/pretendard_medium"
                             android:text=""
                             android:textStyle="bold"
                             android:textSize="14sp"
@@ -308,6 +326,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:fontFamily="@font/pretendard_medium"
                             android:text="가격 : "
                             android:textStyle="bold"
                             android:textSize="14sp"
@@ -319,6 +338,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:fontFamily="@font/pretendard_medium"
                             android:text=""
                             android:textStyle="bold"
                             android:textSize="14sp"

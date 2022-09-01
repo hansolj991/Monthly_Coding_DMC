@@ -27,6 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="68dp"
         android:layout_marginBottom="237dp"
+        android:fontFamily="@font/pretendard_medium"
         android:text="동양미래대학교 학생들을 위해\n학교 주변 점심 먹거리를 준비했어"
         android:textColor="#002066"
         android:textSize="20dp"

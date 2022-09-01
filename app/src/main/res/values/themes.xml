@@ -20,7 +20,9 @@
 
     <style name="NumberPickerStyle">
         <!--글자크기-->
-        <item name="android:textSize">30sp</item>
+        <item name="android:textSize">20sp</item>
+        <!--폰트적용-->
+        <item name="android:fontFamily">@font/pretendard_semibold</item>
         <!--색상변경-->
         <item name="android:textColor">@color/black</item>
         <!--선택창 색깔 selectionDividerHeight-->
