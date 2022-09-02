@@ -66,18 +66,18 @@ class RestaurantRecommendActivity : AppCompatActivity() {
         binding.restaurantImgSweet3.clipToOutline = true
 
         //이미지 클릭 시 상세보기로 이동
-        binding.speed1.setOnClickListener { buttonClick("5") }
-        binding.speed2.setOnClickListener { buttonClick("13") }
-        binding.speed3.setOnClickListener { buttonClick("26") }
-        binding.spicy1.setOnClickListener { buttonClick("33") }
-        binding.spicy2.setOnClickListener { buttonClick("50") }
-        binding.spicy3.setOnClickListener { buttonClick("34") }
-        binding.recommend1.setOnClickListener { buttonClick("30") }
-        binding.recommend2.setOnClickListener { buttonClick("3") }
-        binding.recommend3.setOnClickListener { buttonClick("8") }
-        binding.sweet1.setOnClickListener { buttonClick("17") }
-        binding.sweet2.setOnClickListener { buttonClick("28") }
-        binding.sweet3.setOnClickListener { buttonClick("4") }
+        binding.speed1.setOnClickListener { buttonClick("4") }
+        binding.speed2.setOnClickListener { buttonClick("12") }
+        binding.speed3.setOnClickListener { buttonClick("25") }
+        binding.spicy1.setOnClickListener { buttonClick("32") }
+        binding.spicy2.setOnClickListener { buttonClick("49") }
+        binding.spicy3.setOnClickListener { buttonClick("33") }
+        binding.recommend1.setOnClickListener { buttonClick("29") }
+        binding.recommend2.setOnClickListener { buttonClick("2") }
+        binding.recommend3.setOnClickListener { buttonClick("7") }
+        binding.sweet1.setOnClickListener { buttonClick("16") }
+        binding.sweet2.setOnClickListener { buttonClick("27") }
+        binding.sweet3.setOnClickListener { buttonClick("3") }
     }
 
     private fun buttonClick(v : String) {
