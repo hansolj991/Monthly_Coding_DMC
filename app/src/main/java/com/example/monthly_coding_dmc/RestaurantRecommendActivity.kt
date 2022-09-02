@@ -1,5 +1,6 @@
 package com.example.monthly_coding_dmc
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.monthly_coding_dmc.databinding.ActivityRestaurantRecommendBinding
@@ -63,5 +64,25 @@ class RestaurantRecommendActivity : AppCompatActivity() {
         binding.restaurantImgSweet1.clipToOutline = true
         binding.restaurantImgSweet2.clipToOutline = true
         binding.restaurantImgSweet3.clipToOutline = true
+
+        //이미지 클릭 시 상세보기로 이동
+        binding.speed1.setOnClickListener { buttonClick("5") }
+        binding.speed2.setOnClickListener { buttonClick("13") }
+        binding.speed3.setOnClickListener { buttonClick("26") }
+        binding.spicy1.setOnClickListener { buttonClick("33") }
+        binding.spicy2.setOnClickListener { buttonClick("50") }
+        binding.spicy3.setOnClickListener { buttonClick("34") }
+        binding.recommend1.setOnClickListener { buttonClick("30") }
+        binding.recommend2.setOnClickListener { buttonClick("3") }
+        binding.recommend3.setOnClickListener { buttonClick("8") }
+        binding.sweet1.setOnClickListener { buttonClick("17") }
+        binding.sweet2.setOnClickListener { buttonClick("28") }
+        binding.sweet3.setOnClickListener { buttonClick("4") }
+    }
+
+    private fun buttonClick(v : String) {
+        val intent = Intent(this, RestaurantDetailActivity::class.java)
+        intent.putExtra("result", v)
+        startActivity(intent)
     }
 }
