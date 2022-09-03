@@ -82,13 +82,21 @@ class RecommendActivity : AppCompatActivity() {
 
     private fun setData() {
 
-        val values = mutableSetOf("싸움의 고수", "본죽", "동명", "YumYum", "서브웨이", "곱분이곱창", "맛닭꼬", "지지고", "통큰갈비", "이삭토스트", "롯데리아", "구이가", "맘스터치",
-            "돈발해", "토마토김밥", "큰맘 할매 순대국", "홍루이젠", "최고당돈까스", "고척돈가스", "백채 김치찌개", "아부찌부대찌개", "만포 돼지국밥/순대국", "피자스쿨", "홍춘천 치즈닭갈비",
-            "제주몰빵", "한솥도시락", "걸작 떡볶이 치킨", "타코비/치즈볼", "일품마라탕", "빨봉분식", "홍콩반점", "놀부 부대찌개/철판구이", "죠스떡볶이", "엽기떡볶이", "김밥왕국", "뒤뜰",
-            "노랑통닭", "메가커피", "투썸플레이스", "보드람치킨", "삼삼치킨", "테니스 피자 펍", "마포주먹고기", "언스틸", "고척칼국수", "진스시", "꼭지식당", "멕시카나 치킨", "내고향왕만두",
-            "하우마라", "고척동이태리", "두부이야기", "bhc", "전주맛집", "마니식당", "동산닭요리", "명가함흥냉면", "대박고깃집", "소문난 순대국 왕 족발", "곱창마을", "취화원", "아마스빈 버블티",
-            "경성꽈배기", "컴포즈커피", "전주식당", "advendutch", "303place", "전가복", "향촌숯불돈갈비", "은성이네 식당", "생각나는 울 엄마찌개", "양꼬치 훠궈", "꿀꿀이 생고기 맛집", "와플대학",
-            "뜸들이다", "난연스시"
+        val values = mutableSetOf("싸움의 고수", "본죽", "동명", "YumYum", "서브웨이",
+            "곱분이곱창", "맛닭꼬", "지지고", "통큰갈비", "이삭토스트",
+            "롯데리아", "구이가", "맘스터치", "돈발해", "난연스시",
+            "큰맘 할매 순대국", "홍루이젠", "최고당돈까스", "고척돈가스", "백채 김치찌개",
+            "아부찌부대찌개", "만포 돼지국밥/순대국", "피자스쿨", "홍춘천 치즈닭갈비", "제주몰빵",
+            "한솥도시락", "걸작 떡볶이 치킨", "타코비/치즈볼", "청년다방", "빨봉분식",
+            "홍콩반점", "놀부 부대찌개/철판구이", "죠스떡볶이", "엽기떡볶이", "김밥왕국",
+            "뜸들이다", "노랑통닭", "메가커피", "투썸플레이스", "보드람치킨",
+            "삼삼치킨", "테니스 피자 펍", "마포주먹고기", "언스틸", "고척칼국수",
+            "진스시", "와플대학", "멕시카나 치킨", "내고향왕만두",
+            "하우마라", "고척동이태리", "두부이야기", "bhc", "전주맛집",
+            "마니식당", "동산닭요리", "명가함흥냉면", "대박고깃집", "소문난 순대국 왕 족발",
+            "곱창마을", "취화원", "아마스빈 버블티", "경성꽈배기", "컴포즈커피",
+            "전주식당", "advendutch", "303place", "전가복", "향촌숯불돈갈비",
+            "은성이네 식당", "생각나는 울 엄마찌개", "양꼬치 훠궈", "꿀꿀이 생고기 맛집"
             )
         dataList.addAll(values)
 
@@ -103,19 +111,16 @@ class RecommendActivity : AppCompatActivity() {
 
     private fun onRandomPick() {
         val ran = Random.nextInt(0, dataList.size)
+        var resultInt = 0
 
-        val randomPickAnimation =
-            ObjectAnimator.ofInt(np.value, np.value.plus(ran)).apply {
+        val randomPickAnimation = ObjectAnimator.ofInt(np.value, np.value.plus(ran)).apply {
                 interpolator = CustomInterpolator() //빠르기 설정
                 duration = 1000 //1000 = 1초
 
                 addUpdateListener {
                     np.value = it.animatedValue as Int
                     Log.d("MainActivity", dataList[np.value])
-
-
                 }
-
             }//np.ObjectAnimator
         val npFadeOut = ObjectAnimator.ofFloat(np,"alpha", 1f, 0f ).apply { duration = 2500 }
         val tvResultCenterMove = ObjectAnimator.ofFloat(tvResult, "translationY", 200f).apply { duration = 300 }
@@ -123,6 +128,7 @@ class RecommendActivity : AppCompatActivity() {
             duration = 100
             addUpdateListener {
                 tvResult.text = dataList[np.value]
+                resultInt = np.value
             }
         }
         val btnRetryFadein = ObjectAnimator.ofFloat(btnRetry, "alpha", 0f, 1f).apply { duration = 100 }
@@ -140,8 +146,9 @@ class RecommendActivity : AppCompatActivity() {
 
         } // NumberPicker가 끝나고 결과 보여주는 애니메이션 집합
 
+        //랜덤피커 초기화
         btnRetry.setOnClickListener {
-            //tvResult.setText(null)
+            tvResult.text = null
             randomPickAnimation.end()
             //tvResult.visibility = View.INVISIBLE
             randomPickEndAnimation.cancel()
@@ -159,9 +166,8 @@ class RecommendActivity : AppCompatActivity() {
 
         btnDetail.setOnClickListener {
             val intent = Intent(this, RestaurantDetailActivity::class.java)
-            intent.apply {
-                this.putExtra("result", randomPickAnimation.animatedValue.toString())
-            }
+            Log.d("tv result(resultInt) : ", resultInt.toString())
+            intent.putExtra("result", resultInt.toString())
             startActivity(intent)
         }
 
